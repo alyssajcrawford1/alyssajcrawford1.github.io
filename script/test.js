@@ -1,13 +1,19 @@
 const darkModeButton = document.querySelector(".darkModeButton");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
-const currentTheme = localStorage.getItem("theme");
+var currentTheme = localStorage.getItem("theme");
 if (currentTheme == "dark") {
     document.body.classList.toggle("darkMode");
     darkModeButton.innerText = "light mode";
 } else if (currentTheme == "light") {
     document.body.classList.toggle("lightMode");
     darkModeButton.innerText = "dark mode";
+} else {
+    if (prefersDarkScheme) {
+        darkModeButton.innerText = "light mode";
+    } else {
+        darkModeButton.innerText = "dark mode";
+    }
 }
 
 darkModeButton.addEventListener("click", function() {
