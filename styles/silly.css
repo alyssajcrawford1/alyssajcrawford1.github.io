@@ -1,22 +1,29 @@
-:root {
-    --text: #000;
-    --bg: #FFF;
+body {
+    --text-color: #222;
+    --bkg-color: #fff;
 }
-
-html {
-    background-color: var(--bg);
-    color: var(--text);
+body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #121212;
+}
+  
+@media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+    body {
+      --text-color: #eee;
+      --bkg-color: #121212;
+    }
+    body.light-theme {
+      --text-color: #222;
+      --bkg-color: #fff;
+    }
+}
+  
+* {
     font-family: 'Courier New', Courier, monospace, sans-serif;
 }
-
-.test {
-    background-color: #FF6600;
-    color: #333333;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text: #FFF;
-        --bg: #000;
-    }
+  
+body {
+    background: var(--bkg-color);
+    color: var(--text-color);
 }
