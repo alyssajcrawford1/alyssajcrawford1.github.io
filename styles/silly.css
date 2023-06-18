@@ -1,5 +1,22 @@
+:root {
+    --text: #000;
+    --bg: #FFF;
+}
+
 html {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+.test {
     background-color: #FF6600;
     color: #333333;
-    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #FFF;
+        --bg: #000;
+    }
 }
