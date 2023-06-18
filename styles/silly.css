@@ -1,29 +1,59 @@
-body {
-    --text-color: #222;
-    --bkg-color: #fff;
-}
-body.dark-theme {
-    --text-color: #eee;
-    --bkg-color: #121212;
-}
-  
-@media (prefers-color-scheme: dark) {
-    /* defaults to dark theme */
-    body {
-      --text-color: #eee;
-      --bkg-color: #121212;
-    }
-    body.light-theme {
-      --text-color: #222;
-      --bkg-color: #fff;
-    }
-}
-  
 * {
     font-family: 'Courier New', Courier, monospace, sans-serif;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
 }
   
 body {
     background: var(--bkg-color);
     color: var(--text-color);
+}
+
+a:link {
+    color: var(--link-a);
+}
+a:hover {
+    color: var(--link-a);
+}
+a:visited {
+    color: var(--link-b);
+}
+a:active {
+    color: var(--link-b);
+}
+
+
+
+
+
+body {
+    --text-color: #222222;
+    --bkg-color: #FFFFFF;
+    --link-a: #FF6600;
+    --link-b: #FF9900;
+}
+body.darkMode {
+    --text-color: #EEEEEE;
+    --bkg-color: #121212;
+    --link-a: #FF9900;
+    --link-b: #FF6600;
+}
+  
+@media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+    body {
+      --text-color: #EEEEEE;
+      --bkg-color: #121212;
+      --link-a: #FF9900;
+      --link-b: #FF6600;
+    }
+    body.lightMode {
+      --text-color: #222222;
+      --bkg-color: #FFFFFF;
+      --link-a: #FF6600;
+      --link-b: #FF9900;
+    }
 }

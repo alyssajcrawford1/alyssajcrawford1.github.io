@@ -1,24 +1,34 @@
-const btn = document.querySelector(".btn-toggle");
+const darkModeButton = document.querySelector(".darkModeButton");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 const currentTheme = localStorage.getItem("theme");
 if (currentTheme == "dark") {
-  document.body.classList.toggle("dark-theme");
+    document.body.classList.toggle("darkMode");
+    darkModeButton.innerText = "light mode";
 } else if (currentTheme == "light") {
-  document.body.classList.toggle("light-theme");
+    document.body.classList.toggle("lightMode");
+    darkModeButton.innerText = "dark mode";
 }
 
-btn.addEventListener("click", function () {
-  if (prefersDarkScheme.matches) {
-    document.body.classList.toggle("light-theme");
-    var theme = document.body.classList.contains("light-theme")
-      ? "light"
-      : "dark";
-  } else {
-    document.body.classList.toggle("dark-theme");
-    var theme = document.body.classList.contains("dark-theme")
-      ? "dark"
-      : "light";
-  }
-  localStorage.setItem("theme", theme);
+darkModeButton.addEventListener("click", function() {
+    if (prefersDarkScheme) {  //.matches ??
+        document.body.classList.toggle("lightMode");
+        if (document.body.classList.contains("lightMode")) {
+            theme = "light";
+            darkModeButton.innerText = "dark mode";
+        } else {
+            theme = "dark";
+            darkModeButton.innerText = "light mode";
+        }
+    } else {
+        document.body.classList.toggle("darkMode");
+        if (document.body.classList.contains("darkMode")) {
+            theme = "dark";
+            darkModeButton.innerText = "light mode";
+        } else {
+            theme = "light";
+            darkModeButton.innerText = "dark mode";
+        }
+    }
+    localStorage.setItem("theme", theme);
 });
