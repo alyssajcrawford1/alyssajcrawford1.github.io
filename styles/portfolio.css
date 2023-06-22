@@ -1,6 +1,6 @@
 * {
     font-family: Times, 'Times New Roman', serif;
-    text-align: center;
+    text-align: left;
 }
 
 body {
@@ -21,12 +21,6 @@ a:active {
     color: var(--accentB);
 }
 
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-
 ul li {
     display: inline;
 }
@@ -34,12 +28,10 @@ ul li {
 main {
     border-top: 1px solid var(--accentA);
     border-bottom: 1px solid var(--accentA);
-    margin: 10px;
 }
 
 nav {
     float: center;
-    list-style-type: none
 }
 
 

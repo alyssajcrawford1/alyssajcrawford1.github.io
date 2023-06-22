@@ -1,0 +1,107 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+body {
+    background: var(--bgColor);
+    color: var(--textColor);
+}
+
+a {
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    display: inline;
+}
+
+dl {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 10px;
+    min-height: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--bgColor);
+}
+
+.flexParent {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+#leftBox {
+    flex: 1;
+}
+
+#rightBox {
+    flex: 2;
+}
+
+.resumeChild {
+    border-radius: 5px;
+    margin: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background: var(--accentA);
+    box-shadow: -3px 3px 3px var(--accentB);
+}
+
+footer {
+    text-align: center;
+}
+
+.date {
+    float: right;
+}
+
+
+
+
+/* Light / Dark Mode Variables */
+
+body {
+    --textColor: #222222;
+    --bgColor: #DDDDDD;
+    --accentA: #EEEEEE;
+    --accentB: #CCCCCC;
+}
+body.darkMode {
+    --textColor: #EEEEEE;
+    --bgColor: #222222;
+    --accentA: #333333;
+    --accentB: #111111;
+}
+  
+@media (prefers-color-scheme: dark) {
+    body {
+      --textColor: #EEEEEE;
+      --bgColor: #222222;
+      --accentA: #333333;
+      --accentB: #111111;
+    }
+    body.lightMode {
+      --textColor: #222222;
+      --bgColor: #DDDDDD;
+      --accentA: #EEEEEE;
+      --accentB: #CCCCCC;
+    }
+}

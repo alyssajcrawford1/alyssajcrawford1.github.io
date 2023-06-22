@@ -6,28 +6,52 @@
     <meta charset="UTF-8"/>
     <meta name="author" content="Alyssa Crawford"/>
     <meta name="description" content="Alyssa's resume"/>
-    <link rel="stylesheet" href="styles/silly.css"/>
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" href="styles/resume.css"/>
 </head>
 
 <body>
     <header>
-        <h1>alyssa's website: resume</h1>
+        <h1>Alyssa's Resume</h1>
     </header>
 
     <nav> <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        </ul> </nav>
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="resume.html">Resume</a></li>
+        <li class="nav"><a href="portfolio.html">Portfolio</a></li>
+    </ul> </nav>
 
     <main>
-        <p>
-            resume goes here :D
-        </p>
+    <div class="flexParent">
+        <div id="leftBox" class="resumeChild">
+            <!--IMAGE-->
+            <h2>Alyssa Crawford</h2>
+            <ul>
+                <li><a href="mailto:alyssajcrawford1@gmail.com"> alyssajcrawford1@gmail.com</a></li>
+            </ul>
+        </div>
+
+        <div id="rightBox" class="resumeChild">
+            <h2>Education</h2>
+            <p>
+                <strong>Bachelor of Science in Computer Science</strong> <span class="date">May 2023</span><br>
+                University of Arizona, Tucson, AZ, USA<br>
+                Minor in ISTA (Information Science, Technology, & the Arts)<br>
+            </p>
+            <h2>Experience</h2>
+            <dl>
+                <dt><strong>Section Leader</strong> <span class="date">August 2021 - May 2023</span></dt>
+                <dd><ul>
+                    <li>University of Arizona, Tucson, AZ</li>
+                    <li>University of Arizona, Tucson, AZ</li>
+                </ul></dd>
+            </dl>
+        </div>
+    </div>
     </main>
 
     <footer>
-        <button class="btn-toggle">toggle dark mode</button><br>
+        <button class="darkModeButton">toggle</button><br>
         <small>
         Written by Alyssa Crawford<br>
         <a href="mailto:alyssajcrawford1@gmail.com"> alyssajcrawford1@gmail.com</a>
