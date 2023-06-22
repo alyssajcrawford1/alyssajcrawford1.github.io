@@ -41,8 +41,8 @@ main {
     display: flex;
     flex-direction: row;
 }
-@media (max-width: 800px) {
-    .flex-container {
+@media (max-width: 750px) {
+    .flexParent {
         flex-direction: column;
     }
 }
@@ -58,9 +58,7 @@ main {
 .resumeChild {
     border-radius: 5px;
     margin: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     background: var(--accentA);
     box-shadow: -3px 3px 3px var(--accentB);
 }
@@ -71,6 +69,11 @@ footer {
 
 .date {
     float: right;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
 }
 
 
