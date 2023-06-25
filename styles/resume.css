@@ -152,6 +152,11 @@ footer {
 .date {
     float: right;
 }
+@media (max-width: 1030px) {
+    .date {
+        float: none;
+    }
+}
 
 img {
     width: 100%;
