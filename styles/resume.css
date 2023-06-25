@@ -3,15 +3,30 @@
     line-height: 1.5;
 }
 
+body {
+    background: var(--bgColor);
+    color: var(--textColor);
+    margin: 0px;
+}
+main {
+    margin: 20px 40px 20px 40px;
+    clear: both;
+    padding-top: 80px;
+}
+
 header {
-    border-radius: 10px;
     background-color: var(--boxColor);
-    box-shadow: -3px 3px 3px var(--shadow);
-    
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    box-shadow: 0px 3px 10px var(--shadow);
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 #headerBox {
     display: inline-block;
@@ -20,6 +35,8 @@ header {
 }
 nav {
     display: inline-block;
+    margin: 0px;
+    padding: 0px;
 }
 #navList {
     display: inline-block;
@@ -46,20 +63,25 @@ nav {
 .navItem a:hover {
     color: var(--subheader);
 }
+
 @media (max-width: 750px) {
     header {
         flex-direction: column;
     }
     #navList {
-        flex-direction: column;
         padding-top: 0px;
     }
+    header {
+        position: static;
+    }
+    main {
+        padding-top: 0px;
+    }
+    
 }
-
-body {
-    background: var(--bgColor);
-    color: var(--textColor);
-    margin: 40px;
+h1 {
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -139,12 +161,6 @@ h4 {
     box-shadow: -3px 3px 3px var(--shadow);
 }
 
-main {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    clear: both;
-}
-
 footer {
     text-align: center;
 }
@@ -161,7 +177,8 @@ footer {
 img {
     width: 100%;
     border-radius: 10px;
-    opacity: var(--imgOpacity)
+    opacity: var(--imgOpacity);
+    box-shadow: -3px 3px 3px var(--shadow);
 }
 
 
