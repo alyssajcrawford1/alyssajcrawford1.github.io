@@ -4,17 +4,19 @@
 }
 
 body {
-    background: var(--bgColor);
+    background-color: var(--bgColor);
+    background-repeat: repeat;
+    background-size: 20%;
     color: var(--textColor);
 }
 
 a:link {
     color: var(--accentA);
 }
-a:hover {
+a:visited {
     color: var(--accentA);
 }
-a:visited {
+a:hover {
     color: var(--accentB);
 }
 a:active {
@@ -39,9 +41,8 @@ main {
 
 nav {
     float: center;
-    list-style-type: none
+    list-style-type: none;
 }
-
 
 
 body {
@@ -49,25 +50,29 @@ body {
     --bgColor: #FFFFFF;
     --accentA: #FF6600;
     --accentB: #FF9900;
+    background-image: url("clouds.jpg");
 }
 body.darkMode {
     --textColor: #EEEEEE;
     --bgColor: #121212;
     --accentA: #FF9900;
     --accentB: #FF6600;
+    background-image: url("starry.gif");
 }
   
 @media (prefers-color-scheme: dark) {
     body {
-      --textColor: #EEEEEE;
-      --bgColor: #121212;
-      --accentA: #FF9900;
-      --accentB: #FF6600;
+        --textColor: #EEEEEE;
+        --bgColor: #121212;
+        --accentA: #FF9900;
+        --accentB: #FF6600;
+        background-image: url("starry.gif");
     }
     body.lightMode {
-      --textColor: #222222;
-      --bgColor: #FFFFFF;
-      --accentA: #FF6600;
-      --accentB: #FF9900;
+        --textColor: #222222;
+        --bgColor: #FFFFFF;
+        --accentA: #FF6600;
+        --accentB: #FF9900;
+        background-image: url("clouds.jpg");
     }
 }

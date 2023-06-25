@@ -9,62 +9,139 @@
     <meta name="color-scheme" content="dark light">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/resume.css"/>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 </head>
 
 <body>
     <header>
-        <h1>RESUME</h1>
+        <h1 id="headerBox">alyssajcrawford.gay</h1>
+
+        <nav> <ul id="navList">
+            <li class="navItem"><a href="index.html"><b>HOME</b></a></li>
+            <li class="navItem" id="curPage"><b>RESUME</b></li>
+            <li class="navItem"><a href="portfolio.html"><b>PORTFOLIO</b></a></li>
+        </ul> </nav>
     </header>
 
-    <nav> <ul class="inlineUL">
-        <li class="inlineLI"><a href="index.html"><b>HOME</b></a></li>
-        <li class="inlineLI"><a href="resume.html"><b>RESUME</b></a></li>
-        <li class="inlineLI"><a href="portfolio.html"><b>PORTFOLIO</b></a></li>
-    </ul> </nav>
-
     <main>
-    <div class="flexParent">
+    <div class="flexParentResume">
         <div id="leftBox" class="resumeChild">
             <img src="images/trotternish.jpg" 
                 alt="Selfie from up high in the Trotternish (Tròndairnis), 
                 Isle of Skye, Scotland. There is lush grass, wind in my face, clouds
                 just out of reach, and ocean behind me.">
+            
             <h2>Alyssa Crawford</h2>
-            <ul>
-                <li>
-                    <!--ICON-->
+            
+            <ul class="inlineUL">
+                <li class="noBulletLI">
+                    <i class="fi fi-sr-envelope"></i> 
                     <a href="mailto:alyssajcrawford1@gmail.com">alyssajcrawford1@gmail.com</a>
                 </li>
-                <li>
-                    <!--ICON-->
+                <li class="noBulletLI">
+                    <i class="fi fi-sr-phone-call"></i> 
                     <a href="sms:1-480-440-1210">(+1) 480 440 1210</a>
                 </li>
-                <li>
-                    <!--ICON-->
+                <li class="noBulletLI">
+                    <i class="fi fi-sr-home"></i> 
                     Chandler, AZ
                 </li>
-                <li>
-                    <!--ICON-->
+                <li class="noBulletLI">
+                    <i class="fi fi-sr-marker"></i> 
                     Lawrence, KS
+                </li>
+                <li class="noBulletLI">
+                    <i class="fi fi-brands-github"></i>
+                    <a href="https://www.github.com/alyssajcrawford1/">@alyssajcrawford1</a>
+                </li>
+                <li class="noBulletLI">
+                    <i class="fi fi-brands-twitter"></i>
+                    <a href="https://www.twitter.com/ALY55AJC/">@ALY55AJC</a>
+                </li>
+                <li class="noBulletLI">
+                    <i class="fi fi-brands-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/alyssajcrawford/">Alyssa Crawford</a>
+                </li>
+                <li class="noBulletLI">
+                    <i class="fi fi-brands-instagram"></i>
+                    <a href="https://www.instagram.com/ehhhhlyssa/">@ehhhhlyssa</a>
                 </li>
             </ul>
 
             <hr>
 
+            <h2>Languages</h2>
+            
+            <ul class="inlineUL">
+                <li class="inlineLI">Python, </li>
+                <li class="inlineLI">Java, </li>
+                <li class="inlineLI">SQL, </li>
+                <li class="inlineLI">Javascript, </li>
+                <li class="inlineLI">R, </li>
+                <li class="inlineLI">HTML, </li>
+                <li class="inlineLI">CSS, </li>
+                <li class="inlineLI">C, </li>
+                <li class="inlineLI">Assembly, </li>
+                <li class="inlineLI">PHP </li>
+            </ul>
+        </div>
+
+        <div id="rightBox" class="resumeChild">
+            <h2>EDUCATION</h2>
+            <p>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <span class="date">May 2023</span>
+                <h4>University of Arizona, Tucson, AZ, USA</h4>
+                Minor in ISTA (Information Science, Technology, & the Arts)<br>
+            </p>
+
+            <hr>
+            <h2>EXPERIENCE</h2>
+            <dl>
+                <dt>
+                    <h3>Section Leader</h3> 
+                    <span class="date">August 2021 - May 2023</span>
+                    <h4>University of Arizona, Tucson, AZ</h4>
+                </dt>
+                <dd><ul class="bulletUL">
+                    <li class="bulletLI">Lead a weekly 2-hour lab section, giving review lectures on topics 
+                        in Python (pandas, Matplotlib, Jupyter) and SQLite and guiding students 
+                        through in-class lab assignments.</li>
+                    <li class="bulletLI">Held weekly office hours to help students understand and debug 
+                        Python-based homework assignments on data analysis, manipulation, 
+                        and visualization.</li>
+                </ul></dd>
+                
+                <dt>
+                    <h3>PIT-UN Data Science Intern</h3> 
+                    <span class="date">May 2022 - August 2022</span>
+                    <h4>University of Arizona, Tucson, AZ</h4>
+                </dt>
+                <dd><ul class="bulletUL">
+                    <li class="bulletLI">Developed skills in data science, data visualization, machine learning, 
+                        and data tidying using Python (Anaconda) and R (tidyverse) and applied 
+                        them to public interest technology (PIT), non-profits, and research.</li>
+                    <li class="bulletLI">Collaborated on machine learning model (scikit-learn, OpenCV) to estimate 
+                        rock vernal pool depth using trail cam image data.</li>
+                </ul></dd>
+
+                <dt>
+                    <h3>Code Sensei (Children's Coding Instructor)</h3> 
+                    <span class="date">October 2021 - May 2022</span>
+                    <h4>Code Ninjas, Tucson, AZ</h4>
+                </dt>
+                <dd><ul class="bulletUL">
+                    <li class="bulletLI">Taught and guided students ages 7-13 through computer programming topics 
+                        using Scratch, JavaScript, Roblox, and Unity.</li>
+                    <li class="bulletLI">Interfaced with parents/customers through tours, events, and after-class 
+                        discussions about student success.</li>
+                </ul></dd>
+            </dl>
+
+            <hr>
             <h2>SKILLS</h2>
             <dl>
-                <dt><h3>Languages</h3></dl>
-                <dd><ul class="inlineUL">
-                    <li class="inlineLI">Python, </li>
-                    <li class="inlineLI">Java, </li>
-                    <li class="inlineLI">SQL, </li>
-                    <li class="inlineLI">Javascript, </li>
-                    <li class="inlineLI">R, </li>
-                    <li class="inlineLI">HTML & CSS, </li>
-                    <li class="inlineLI">C, </li>
-                    <li class="inlineLI">Assembly, </li>
-                    <li class="inlineLI">PHP </li>
-                </ul></dd>
                 <dt><h3>Tools & Technical Skills</h3></dl>
                     <dd><ul class="inlineUL">
                         <li class="inlineLI">Data Analysis (<em>Anaconda, R tidyverse</em>), </li>
@@ -93,71 +170,17 @@
                 </ul></dd>
             </dl>
         </div>
-
-        <div id="rightBox" class="resumeChild">
-            <h2>EDUCATION</h2>
-            <p>
-                <h3>Bachelor of Science in Computer Science</h3>
-                <span class="date">May 2023</span>
-                <h4>University of Arizona, Tucson, AZ, USA</h4>
-                Minor in ISTA (Information Science, Technology, & the Arts)<br>
-            </p>
-
-            <hr>
-
-            <h2>EXPERIENCE</h2>
-            <dl>
-                <dt>
-                    <h3>Section Leader</h3> 
-                    <span class="date">August 2021 - May 2023</span>
-                    <h4>University of Arizona, Tucson, AZ</h4>
-                </dt>
-                <dd><ul>
-                    <li>Lead a weekly 2-hour lab section, giving review lectures on topics 
-                        in Python (pandas, Matplotlib, Jupyter) and SQLite and guiding students 
-                        through in-class lab assignments.</li>
-                    <li>Held weekly office hours to help students understand and debug 
-                        Python-based homework assignments on data analysis, manipulation, 
-                        and visualization.</li>
-                </ul></dd>
-                
-                <dt>
-                    <h3>PIT-UN Data Science Intern</h3> 
-                    <span class="date">May 2022 - August 2022</span>
-                    <h4>University of Arizona, Tucson, AZ</h4>
-                </dt>
-                <dd><ul>
-                    <li>Developed skills in data science, data visualization, machine learning, 
-                        and data tidying using Python (Anaconda) and R (tidyverse) and applied 
-                        them to public interest technology (PIT), non-profits, and research.</li>
-                    <li>Collaborated on machine learning model (scikit-learn, OpenCV) to estimate 
-                        rock vernal pool depth using trail cam image data.</li>
-                </ul></dd>
-
-                <dt>
-                    <h3>Code Sensei (Children's Coding Instructor)</h3> 
-                    <span class="date">October 2021 - May 2022</span>
-                    <h4>Code Ninjas, Tucson, AZ</h4>
-                </dt>
-                <dd><ul>
-                    <li>Taught and guided students ages 7-13 through computer programming topics 
-                        using Scratch, JavaScript, Roblox, and Unity.</li>
-                    <li>Interfaced with parents/customers through tours, events, and after-class 
-                        discussions about student success.</li>
-                </ul></dd>
-            </dl>
-        </div>
     </div>
     </main>
 
     <footer>
         <button class="darkModeButton">toggle</button><br>
         <small>
-        Written by Alyssa Crawford<br>
+        Written by Alyssa Crawford (2023)<br>
         <a href="mailto:alyssajcrawford1@gmail.com"> alyssajcrawford1@gmail.com</a>
         </small>
 
-        <script src="script/test.js"></script>
+        <script src="script/lightdarkmode.js"></script>
     </footer>
 </body>
 

@@ -1,5 +1,5 @@
 * {
-    font-family: Times, 'Times New Roman', serif;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
     text-align: left;
 }
 
@@ -8,58 +8,40 @@ body {
     color: var(--textColor);
 }
 
-a:link {
-    color: var(--accentA);
+ul{
+    padding: 0px;
 }
-a:hover {
-    color: var(--accentA);
-}
-a:visited {
-    color: var(--accentB);
-}
-a:active {
-    color: var(--accentB);
-}
-
 ul li {
     display: inline;
 }
 
-main {
-    border-top: 1px solid var(--accentA);
-    border-bottom: 1px solid var(--accentA);
-}
-
-nav {
-    float: center;
-}
 
 
 
 body {
     --textColor: #222222;
-    --bgColor: #FFFFFF;
-    --accentA: #FF6600;
-    --accentB: #FF9900;
+    --bgColor: #CCFF99;
+    --accentA: #888888;
+    --accentB: #999999;
 }
 body.darkMode {
-    --textColor: #EEEEEE;
-    --bgColor: #121212;
-    --accentA: #FF9900;
-    --accentB: #FF6600;
+    --textColor: #33CC00;
+    --bgColor: #111111;
+    --accentA: #999999;
+    --accentB: #888888;
 }
   
 @media (prefers-color-scheme: dark) {
     body {
-      --textColor: #EEEEEE;
-      --bgColor: #121212;
-      --accentA: #FF9900;
-      --accentB: #FF6600;
+      --textColor: #33CC00;
+      --bgColor: #111111;
+      --accentA: #999999;
+      --accentB: #888888;
     }
     body.lightMode {
       --textColor: #222222;
-      --bgColor: #FFFFFF;
-      --accentA: #FF6600;
-      --accentB: #FF9900;
+      --bgColor: #CCFF99;
+      --accentA: #888888;
+      --accentB: #999999;
     }
 }
