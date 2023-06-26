@@ -13,33 +13,66 @@ ul{
     list-style: none;
 }
 
+a:link, a:visited {
+    color: var(--linkA);
+}
+a:hover, a:active {
+    color: var(--linkB);
+}
+
+h1 {
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+.asciiArt {
+    padding: 0px;
+    margin: 0px;
+    line-height: 60%;
+}
+@media (max-width: 750px) {
+    .asciiArt {
+        font-size: 80%;
+    }
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+
 
 
 
 body {
-    --textColor: #222222;
-    --bgColor: #CCFF99;
-    --accentA: #888888;
-    --accentB: #999999;
+    --textColor: #FFFFFF;
+    --bgColor: #3366FF;
+    --linkA: #FFCCFF;
+    --linkB: #FF99FF;
 }
 body.darkMode {
     --textColor: #33CC00;
     --bgColor: #111111;
-    --accentA: #999999;
-    --accentB: #888888;
+    --linkA: #CC00FF;
+    --linkB: #9900FF;
 }
-  
 @media (prefers-color-scheme: dark) {
     body {
-      --textColor: #33CC00;
-      --bgColor: #111111;
-      --accentA: #999999;
-      --accentB: #888888;
+        --textColor: #33CC00;
+        --bgColor: #111111;
+        --linkA: #CC00FF;
+        --linkB: #9900FF;
     }
     body.lightMode {
-      --textColor: #222222;
-      --bgColor: #CCFF99;
-      --accentA: #888888;
-      --accentB: #999999;
+        --textColor: #FFFFFF;
+        --bgColor: #3366FF;
+        --linkA: #FFCCFF;
+        --linkB: #FF99FF;
     }
 }

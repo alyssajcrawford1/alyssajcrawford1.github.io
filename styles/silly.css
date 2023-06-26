@@ -10,16 +10,10 @@ body {
     color: var(--textColor);
 }
 
-a:link {
+a:link, a:visited {
     color: var(--accentA);
 }
-a:visited {
-    color: var(--accentA);
-}
-a:hover {
-    color: var(--accentB);
-}
-a:active {
+a:hover, a:active {
     color: var(--accentB);
 }
 
@@ -42,6 +36,10 @@ main {
 nav {
     float: center;
     list-style-type: none;
+}
+
+.linkBadge {
+    text-decoration: none;
 }
 
 
