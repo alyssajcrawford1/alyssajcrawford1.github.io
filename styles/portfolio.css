@@ -1,6 +1,7 @@
 * {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     text-align: left;
+    line-height: 1.3;
 }
 
 body {
@@ -32,7 +33,7 @@ h1 {
     line-height: 60%;
 }
 @media (max-width: 750px) {
-    .asciiArt {
+    body {
         font-size: 80%;
     }
 }
@@ -45,7 +46,27 @@ nav {
     padding: 0px;
     margin: 0px;
 }
+main {
+    padding: 0px;
+    margin: 0px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+pre {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
 
+.inlineLI {
+    display: inline;
+}
+
+.textBlock {
+    padding-left: 10px;
+}
 
 
 
@@ -59,15 +80,15 @@ body {
 body.darkMode {
     --textColor: #33CC00;
     --bgColor: #111111;
-    --linkA: #CC00FF;
-    --linkB: #9900FF;
+    --linkA: #33DD55;
+    --linkB: #33FF99;
 }
 @media (prefers-color-scheme: dark) {
     body {
         --textColor: #33CC00;
         --bgColor: #111111;
-        --linkA: #CC00FF;
-        --linkB: #9900FF;
+        --linkA: #33DD55;
+        --linkB: #33FF99;
     }
     body.lightMode {
         --textColor: #FFFFFF;

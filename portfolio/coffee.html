@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Coffee Project</title>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Alyssa Crawford">
+        <meta name="description" content="CSc444 Assignment 12: Visualizations of coffee quality by variety and attribute">
+        <script src="https://vega.github.io/vega/vega.min.js"></script>
+        <style >
+            html * {
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Coffee Quality Data<h1>
+            <h2>Alyssa Crawford</h2>
+        </header>
+
+        <main>
+            <hr>
+            <p>
+                For the past century, much of the world has treated coffee
+                as either a stimulant or a bitter ingredient in a dessert drink.
+                Neither is necessarily inaccurate... However, recent movements
+                in the specialty coffee sphere have sparked increased interest
+                in the research and elevation of coffee <em>flavor</em> quality,
+                from the agricultural side down to the retail & consumer realm.
+                Using this (quite limited) dataset of coffee samples, I aim to
+                explore the relationship between certain coffees' attributes (such as
+                species, processing method, variety, and country of origin) and 
+                their quality scores. Could certain plants, methods, and countries
+                produce objectively "better" coffees? From there, one could then
+                dive deeper into the economical, climate, political, social,
+                and biological reasons why these relationships exist
+                (unfortunately I do not have that data yet...). Further explorations
+                of this data could also be used to help small farmers make decisions
+                that increase the value of their product. Also- the data I'm
+                using seems to sample almost exclusively high-quality coffees, so
+                results are highly biased and not representative of all coffees.
+            </p>
+
+            <p>
+                The following figures are made using data that comes from the 
+                <a href="https://database.coffeeinstitute.org/coffees/arabica" target="_blank" rel="noopener noreferrer">Coffee Quality Institute (CQI) database,</a>
+                scraped and uploaded to 
+                <a href="https://github.com/jldbc/coffee-quality-database/" target="_blank" rel="noopener noreferrer">Github</a>
+                by James LeDoux in May 2018, merged and uploaded to 
+                <a href="https://www.kaggle.com/datasets/volpatto/coffee-quality-database-from-cqi" target="_blank" rel="noopener noreferrer">Kaggle</a>
+                by Diego Volpatto in 2019, and further cleaned and uploaded to 
+                <a href="https://github.com/alyssajcrawford1/csc444/" target="_blank" rel="noopener noreferrer">Github</a>
+                by myself in December 2022.<br>
+                It contains data on roughly 1,300 Arabica coffee samples,
+                including cupping quality scores, which are standardized by the
+                <a href="https://sca.coffee/" target="_blank" rel="noopener noreferrer">Specialty Coffee Association (SCA).</a>
+                <br>
+                More information about cupping, coffee quality scoring, and the meanings
+                of each attribute and metric can be found 
+                <a href="https://sca.coffee/research/protocols-best-practices" target="_blank" rel="noopener noreferrer">here.</a>
+                More information about coffee species and varieties can be found 
+                <a href="https://sca.coffee/research/coffee-plants-of-the-world" target="_blank" rel="noopener noreferrer">here.</a>
+                More information about coffee processing methods and their effects on flavor can be found 
+                <a href="https://www.baristainstitute.com/blog/jori-korhonen/january-2020/coffee-processing-methods-drying-washing-or-honey" target="_blank" rel="noopener noreferrer">here.</a>
+            </p>
+
+            <p>
+                The following data visualizations are interactive.<br>
+                Some figures allow you to use the dropdown menus to change what data is visualized on an axis.<br>
+                On desktop, hover over data points and countries to see tooltips with additional data. 
+            </p>
+            <hr>
+            <div id="view1">
+                <!-- plot 1 goes here -->
+                <div id="selector">
+                    <!-- selector goes here -->
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div id="view2">
+                <!-- plot 2 goes here -->
+            </div>
+            <br>
+            <hr>
+            <h3>Average Overall Coffee Score by Country of Origin</h3>
+            <div id="view3">
+                <!-- plot 3 goes here -->
+            </div>
+        </main>
+
+        <script src="coffeeSource/coffeeViz1.js"></script>
+        <script src="coffeeSource/coffeeViz2.js"></script>
+        <script src="coffeeSource/coffeeViz3.js"></script>
+
+        <br> <br>
+        <footer>
+            <small>
+            Written by Alyssa Crawford<br>
+            <a href="mailto:alyssajcrawford1@gmail.com"> alyssajcrawford1@gmail.com</a>
+            </small>
+        </footer>
+    </body>
+
+</html>
