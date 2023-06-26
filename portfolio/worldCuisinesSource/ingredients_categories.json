@@ -1,0 +1,268 @@
+{
+    "other vegetables": [
+        "bamboo shoots",
+        "artichoke hearts",
+        "celery",
+        "asparagus",
+        "cauliflower",
+        "broccoli",
+        "capers",
+        "beansprouts",
+        "fennel bulb",
+        "bok choy"
+    ],
+    "whole grains": [
+        "corn",
+        "couscous",
+        "rice"
+    ],
+    "grain products": [
+        "bread",
+        "pasta",
+        "noodles",
+        "tortillas",
+        "tortilla chips",
+        "cornmeal",
+        "grits",
+        "bread crumbs",
+        "wonton wrappers",
+        "polenta",
+        "corn starch",
+        "flour"
+    ],
+    "misc. baking supplies": [
+        "baking powder",
+        "cream of tartar",
+        "active dry yeast",
+        "baking soda",
+        "dry yeast"
+    ],
+    "legumes": [
+        "beans",
+        "peanuts",
+        "chickpea",
+        "peas",
+        "green beans",
+        "black beans",
+        "kidney beans",
+        "black-eyed peas",
+        "cannellini beans",
+        "refried beans",
+        "pinto beans",
+        "tofu"
+    ],
+    "nuts and seeds": [
+        "pinenuts",
+        "pecans",
+        "cashew nuts",
+        "almonds",
+        "sesame seeds",
+        "chopped walnuts",
+        "seeds"
+    ],
+    "sweeteners": [
+        "sugar",
+        "brown sugar",
+        "honey",
+        "powdered sugar",
+        "light corn syrup"
+    ],
+    "spices": [
+        "vanilla",
+        "cinnamon",
+        "nutmeg",
+        "clove",
+        "chocolate",
+        "ground allspice",
+        "mint",
+        "star anise",
+        "cardamom",
+        "ginger",
+        "cumin",
+        "oregano",
+        "cilantro",
+        "parsley",
+        "basil",
+        "bay leaves",
+        "turmeric",
+        "garam masala",
+        "thyme",
+        "coriander",
+        "curry powder",
+        "rosemary",
+        "italian seasoning",
+        "lemongrass",
+        "fennel seeds",
+        "saffron",
+        "chinese five-spice powder",
+        "fresh dill",
+        "curry leaves",
+        "fresh tarragon",
+        "allspice",
+        "chopped fresh sage"
+    ],
+    "heat/spice elements": [
+        "peppercorns",
+        "paprika",
+        "green chile",
+        "red chile",
+        "cajun seasoning",
+        "dried chiles",
+        "mustard seeds",
+        "taco seasoning",
+        "szechwan peppercorns",
+        "dijon mustard",
+        "hot sauce"
+    ],
+    "fruit (sour)": [
+        "lemon",
+        "lime",
+        "orange",
+        "citrus zest"
+    ],
+    "fruit (sweet)": [
+        "mango",
+        "raisins",
+        "peaches",
+        "bananas",
+        "strawberries",
+        "coconut",
+        "apples",
+        "dried apricot",
+        "pineapple",
+        "granny smith apples"
+    ],
+    "alcohol": [
+        "white wine",
+        "red wine",
+        "sake",
+        "rice wine",
+        "dry sherry",
+        "beer",
+        "bourbon whiskey",
+        "brandy",
+        "marsala wine"
+    ],
+    "vinegar": [
+        "rice vinegar",
+        "balsamic vinegar",
+        "white vinegar",
+        "wine vinegar",
+        "cider vinegar"
+    ],
+    "fresh dairy": [
+        "milk",
+        "cream",
+        "half & half"
+    ],
+    "other processed dairy": [
+        "sour cream",
+        "buttermilk",
+        "yogurt",
+        "sweetened condensed milk",
+        "evaporated milk",
+        "non-fat sour cream"
+    ],
+    "cheese": [
+        "cheddar cheese",
+        "mozzarella cheese",
+        "goat cheese",
+        "provolone cheese",
+        "monterey jack",
+        "feta cheese",
+        "parmesan cheese",
+        "soft cheese",
+        "pecorino romano cheese",
+        "queso fresco",
+        "cotija"
+    ],
+    "eggs": [
+        "eggs",
+        "egg yolks",
+        "egg whites"
+    ],
+    "poultry": [
+        "chicken broth",
+        "chicken breasts",
+        "chicken",
+        "chicken thighs",
+        "ground turkey"
+    ],
+    "red meat": [
+        "beef broth",
+        "pork",
+        "beef",
+        "cured pork",
+        "sausages",
+        "ground lamb"
+    ],
+    "seafood": [
+        "shrimp",
+        "mussels",
+        "fish",
+        "fish sauce",
+        "crawfish",
+        "dashi"
+    ],
+    "condiments/sauces": [
+        "soy sauce",
+        "mayonaise",
+        "coconut milk",
+        "worcestershire sauce",
+        "mirin",
+        "ketchup",
+        "hoisin sauce",
+        "vegetable broth",
+        "tomato sauce",
+        "enchilada sauce",
+        "guacamole",
+        "Thai red curry paste",
+        "barbecue sauce",
+        "red curry paste"
+    ],
+    "fats": [
+        "olive oil",
+        "butter",
+        "neutral oil",
+        "sesame oil",
+        "coconut oil",
+        "lard",
+        "oil"
+    ],
+    "alliums": [
+        "onions",
+        "garlic",
+        "green onions",
+        "shallots",
+        "leeks",
+        "chive",
+        "chives"
+    ],
+    "fruits (savory)": [
+        "tomatoes",
+        "bell pepper",
+        "avocado",
+        "zucchini",
+        "cucumber",
+        "eggplant",
+        "tomatillos",
+        "okra",
+        "olives",
+        "butternut squash"
+    ],
+    "root vegetables": [
+        "carrots",
+        "potatoes",
+        "sweet potatoes",
+        "radishes",
+        "water chestnuts"
+    ],
+    "leafy greens": [
+        "cabbage",
+        "spinach",
+        "lettuce",
+        "arugula",
+        "collard greens",
+        "kale"
+    ]
+}

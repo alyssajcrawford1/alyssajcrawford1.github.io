@@ -1,0 +1,881 @@
+{
+    "none": [
+        "water",
+        "warm water",
+        "cold water",
+        "hot water",
+        "boiling water",
+        "sauce",
+        "juice",
+        "cheese",
+        "vegetables",
+        "spices",
+        "ice water",
+        "shredded cheese",
+        "seasoning",
+        "meat",
+        "ice cubes"
+    ],
+    "olive oil": [
+        "olive oil",
+        "extra-virgin olive oil"
+    ],
+    "butter": [
+        "butter",
+        "unsalted butter",
+        "melted butter",
+        "ghee"
+    ],
+    "neutral oil": [
+        "oil",
+        "vegetable oil",
+        "cooking spray",
+        "canola oil",
+        "cooking oil",
+        "vegetable oil cooking spray",
+        "shortening",
+        "margarine",
+        "peanut oil",
+        "vegetable shortening",
+        "corn oil",
+        "sunflower oil",
+        "vegetable oil spray",
+        "grapeseed oil",
+        "salad oil"
+    ],
+    "sesame oil": [
+        "sesame oil",
+        "toasted sesame oil",
+        "dark sesame oil"
+    ],
+    "onions": [
+        "onions",
+        "chopped onion",
+        "yellow onion",
+        "onion powder",
+        "finely chopped onion",
+        "diced onions",
+        "white onion",
+        "sweet onion", 
+        "minced onion",
+        "purple onion",
+        "red onion",
+        "vidalia onion",
+        "pearl onions"
+    ],
+    "garlic": [
+        "garlic",
+        "garlic cloves",
+        "minced garlic",
+        "garlic powder",
+        "large garlic cloves",
+        "chopped garlic",
+        "garlic paste",
+        "garlic salt",
+        "crushed garlic",
+        "granulated garlic"
+    ],
+    "green onions": [
+        "green onions",
+        "scallions",
+        "sliced green onions",
+        "spring onions"
+    ],
+    "chives":[
+        "chives",
+        "chopped fresh chives"
+    ],
+    "tomatoes": [
+        "tomatoes",
+        "diced tomatoes",
+        "plum tomatoes",
+        "crushed tomatoes",
+        "cherry tomatoes",
+        "chopped tomatoes",
+        "grape tomatoes",
+        "roma tomatoes",
+        "tomato purée",
+        "tomato paste",
+        "stewed tomatoes",
+        "sun-dried tomatoes",
+        "fresh tomatoes",
+        "whole peeled tomatoes",
+        "green tomatoes",
+        "tomatoes with juice",
+        "tomato juice",
+        "canned tomatoes",
+        "peeled tomatoes",
+        "roasted tomatoes"
+    ],
+    "cucumber": [
+       "cucumber",
+        "english cucumber" 
+    ],
+    "olives": [
+        "black olives",
+        "pitted kalamata olives",
+        "kalamata",
+        "green olives",
+        "sliced black olives",
+        "olives",
+        "ripe olives"
+    ],
+    "carrots": [
+        "carrots",
+        "shredded carrots",
+        "sliced carrots",
+        "baby carrots"
+    ],
+    "potatoes": [
+        "potatoes",
+        "russet potatoes",
+        "yukon gold potatoes",
+        "baking potatoes",
+        "red potato",
+        "boiling potatoes",
+        "small red potato",
+        "mashed potatoes"
+    ],
+    "radishes": [
+        "radishes",
+        "daikon"
+    ],
+    "celery": [
+        "celery",
+        "celery ribs",
+        "chopped celery",
+        "diced celery",
+        "celery seed",
+        "celery salt"
+    ],
+    "cabbage": [
+        "cabbage",
+        "napa cabbage",
+        "green cabbage",
+        "red cabbage",
+        "shredded cabbage",
+        "chinese cabbage",
+        "savoy cabbage"
+    ],
+    "spinach": [
+        "spinach",
+        "baby spinach",
+        "fresh spinach",
+        "frozen chopped spinach",
+        "baby spinach leaves",
+        "spinach leaves",
+        "fresh leav spinach"
+    ],
+    "lettuce": [
+        "lettuce",
+        "romaine lettuce",
+        "lettuce leaves",
+        "shredded lettuce",
+        "iceberg lettuce"
+    ],
+    "broccoli": [
+        "broccoli",
+        "broccoli florets"
+    ],
+    "corn": [
+        "corn",
+        "corn kernels",
+        "frozen corn",
+        "frozen corn kernels"
+    ],
+    "mushrooms": [
+        "mushrooms",
+        "fresh mushrooms",
+        "sliced mushrooms",
+        "button mushrooms",
+        "shiitake",
+        "cremini mushrooms",
+        "dried shiitake mushrooms",
+        "dried porcini mushrooms",
+        "fresh shiitake mushrooms",
+        "portabello mushroom",
+        "crimini mushroom",
+        "shiitake mushroom caps",
+        "white mushrooms",
+        "wild mushrooms"
+    ],
+    "peanuts": [
+        "peanuts",
+        "roasted peanuts",
+        "peanut butter",
+        "creamy peanut butter",
+        "dry roasted peanuts",
+        "unsalted dry roast peanuts"
+    ],
+    "chickpea": [
+        "chickpea",
+        "garbanzo beans",
+        "chickpeas"
+    ],
+    "peas": [
+        "peas",
+        "frozen peas",
+        "green peas",
+        "snow peas",
+        "sugar pea"
+    ],
+    "tofu": [
+        "tofu",
+        "firm tofu",
+        "extra firm tofu"
+    ],
+    "pecans": [
+        "pecans",
+        "chopped pecans",
+        "pecan halves"
+    ],
+    "almonds": [
+        "almonds",
+        "sliced almonds",
+        "almond extract",
+        "slivered almonds",
+        "blanched almonds",
+        "ground almonds"
+    ],
+    "salt": [
+        "salt",
+        "kosher salt",
+        "sea salt",
+        "coarse salt",
+        "fine sea salt",
+        "seasoning salt",
+        "table salt",
+        "coarse sea salt",
+        "coarse kosher salt"
+    ],
+    "sugar": [
+        "sugar",
+        "white sugar",
+        "granulated sugar",
+        "caster sugar",
+        "palm sugar"
+    ],
+    "brown sugar": [
+        "brown sugar",
+        "light brown sugar",
+        "dark brown sugar",
+        "firmly packed brown sugar"
+    ],
+    "powdered sugar": [
+        "powdered sugar",
+        "confectioners sugar"
+    ],
+    "vanilla": [
+        "vanilla",
+        "vanilla extract",
+        "pure vanilla extract",
+        "vanilla beans"
+    ],
+    "cinnamon": [
+        "cinnamon",
+        "ground cinnamon",
+        "cinnamon sticks"
+    ],
+    "nutmeg": [
+        "nutmeg",
+        "ground nutmeg",
+        "grated nutmeg"
+    ],
+    "clove": [
+        "clove",
+        "ground cloves",
+        "whole cloves"
+    ],
+    "ginger": [
+        "ginger",
+        "fresh ginger",
+        "ground ginger",
+        "peeled fresh ginger",
+        "fresh ginger root",
+        "minced ginger",
+        "ginger root",
+        "gingerroot",
+        "ginger paste"
+    ],
+    "mint": [
+        "mint",
+        "fresh mint",
+        "chopped fresh mint",
+        "mint leaves",
+        "mint sprigs"
+    ],
+    "cardamom": [
+        "ground cardamom",
+        "cardamom pods",
+        "cardamom",
+        "green cardamom",
+        "green cardamom pods"
+    ],
+    "chocolate": [
+        "semisweet chocolate",
+        "bittersweet chocolate",
+        "unsweetened cocoa powder",
+        "semi-sweet chocolate morsels",
+        "cocoa powder"
+    ],
+    "cumin": [
+        "cumin",
+        "ground cumin",
+        "cumin seed"
+    ],
+    "oregano": [
+        "oregano",
+        "dried oregano",
+        "fresh oregano",
+        "Mexican oregano",
+        "fresh oregano leaves"
+    ],
+    "cilantro": [
+        "cilantro",
+        "chopped cilantro fresh",
+        "cilantro leaves",
+        "fresh cilantro",
+        "chopped cilantro",
+        "cilantro sprigs",
+        "cilantro stems"
+    ],
+    "parsley": [
+        "parsley",
+        "fresh parsley",
+        "flat leaf parsley",
+        "chopped parsley",
+        "dried parsley",
+        "parsley sprigs",
+        "fresh parsley leaves",
+        "Italian parsley leaves",
+        "finely chopped fresh parsley",
+        "parsley leaves"
+    ],
+    "basil": [
+        "basil",
+        "fresh basil",
+        "dried basil",
+        "fresh basil leaves",
+        "basil leaves",
+        "thai basil"
+    ],
+    "bay leaves": [
+        "bay leaves",
+        "bay leaf",
+        "California bay leaves"
+    ],
+    "turmeric": [
+        "turmeric",
+        "ground turmeric",
+        "tumeric"
+    ],
+    "thyme": [
+        "thyme",
+        "dried thyme",
+        "chopped fresh thyme",
+        "fresh thyme",
+        "thyme sprigs",
+        "fresh thyme leaves"
+    ],
+    "coriander": [
+        "coriander",
+        "ground coriander",
+        "coriander seeds",
+        "fresh coriander",
+        "coriander powder"
+    ],
+    "sesame seeds": [
+        "sesame seeds",
+        "toasted sesame seeds",
+        "white sesame seeds"
+    ],
+    "rosemary": [
+        "fresh rosemary",
+        "dried rosemary",
+        "rosemary sprigs",
+        "rosemary"
+    ],
+    "saffron": [
+        "saffron",
+        "saffron threads"
+    ],
+    "bell pepper": [
+        "bell pepper",
+        "red bell pepper",
+        "green bell pepper",
+        "green pepper",
+        "yellow bell pepper",
+        "chopped green bell pepper",
+        "roasted red peppers",
+        "orange bell pepper",
+        "sweet pepper",
+        "yellow peppers",
+        "green bell pepper, slice"
+    ],
+    "peppercorns": [
+        "peppercorns",
+        "black pepper",
+        "ground black pepper",
+        "pepper",
+        "freshly ground pepper",
+        "black peppercorns",
+        "cracked black pepper",
+        "ground pepper",
+        "salt and ground black pepper",
+        "white pepper",
+        "ground white pepper"
+    ],
+    "paprika": [
+        "paprika",
+        "smoked paprika",
+        "sweet paprika"
+    ],
+    "green chile": [
+        "green chile",
+        "green chilies",
+        "serrano chile",
+        "jalapeno chilies",
+        "poblano chiles",
+        "poblano peppers",
+        "serrano peppers",
+        "Anaheim chile",
+        "diced green chilies",
+        "serrano chilies",
+        "chopped green chilies"
+    ],
+    "red chile": [
+        "red chili peppers",
+        "chile pepper",
+        "chiles",
+        "thai chile",
+        "chili",
+        "chili pepper",
+        "hot pepper",
+        "bird chile",
+        "pimentos",
+        "chillies"
+    ],
+    "cajun seasoning": [
+        "cajun seasoning",
+        "creole seasoning"
+    ],
+    "dried chiles": [
+        "red chili powder",
+        "chipotles in adobo",
+        "hot red pepper flakes",
+        "chili flakes",
+        "crushed red pepper flakes",
+        "cayenne pepper",
+        "cayenne",
+        "ground red pepper",
+        "crushed red pepper",
+        "red pepper flakes",
+        "ancho chile pepper",
+        "chipotle chile",
+        "chili powder",
+        "red pepper",
+        "ground cayenne pepper",
+        "dried red chile peppers",
+        "chipotle peppers",
+        "pepper flakes",
+        "chile powder",
+        "guajillo chile",
+        "chili paste",
+        "chili oil"
+    ],
+    "mustard seeds": [
+        "mustard seeds",
+        "dry mustard",
+        "black mustard seeds",
+        "brown mustard seeds",
+        "mustard powder"
+    ],
+    "taco seasoning": [
+        "taco seasoning",
+        "taco seasoning mix"
+    ],
+    "lemon": [
+        "lemon",
+        "fresh lemon juice",
+        "lemon juice",
+        "lemon wedge",
+        "lemon slices",
+        "preserved lemon"
+    ],
+    "lime": [
+        "lime",
+        "lime juice",
+        "fresh lime juice",
+        "lime wedges",
+        "kaffir lime leaves",
+        "lime slices"
+    ],
+    "orange": [
+        "orange",
+        "orange juice",
+        "fresh orange juice",
+        "orange liqueur",
+        "navel oranges"
+    ],
+    "citrus zest": [
+        "lemon zest",
+        "grated lemon zest",
+        "grated lemon peel",
+        "orange zest",
+        "grated orange",
+        "lime zest",
+        "lemon rind",
+        "lime rind",
+        "grated orange peel"
+    ],
+    "raisins": [
+        "raisins",
+        "golden raisins"
+    ],
+    "coconut milk": [
+        "coconut milk",
+        "unsweetened coconut milk",
+        "light coconut milk",
+        "coconut cream"
+    ],
+    "white wine": [
+        "white wine",
+        "dry white wine"
+    ],
+    "red wine": [
+        "red wine",
+        "dry red wine",
+        "wine"
+    ],
+    "rice wine": [
+        "rice wine",
+        "Shaoxing wine",
+        "mirin",
+        "chinese rice wine"
+    ],
+    "white vinegar": [
+        "white vinegar",
+        "vinegar"
+    ],
+    "wine vinegar": [
+        "white wine vinegar",
+        "red wine vinegar",
+        "sherry vinegar",
+        "seasoned rice wine vinegar"
+    ],
+    "cider vinegar": [
+        "cider vinegar",
+        "apple cider vinegar"
+    ],
+    "milk": [
+        "milk",
+        "whole milk",
+        "1% low-fat milk",
+        "fat free milk",
+        "skim milk",
+        "reduced-fat milk",
+        "2% reduced fat milk"
+    ],
+    "cream": [
+        "cream",
+        "heavy cream",
+        "whipping cream",
+        "heavy whipping cream",
+        "whipped cream"
+    ],
+    "yogurt": [
+        "yoghurt",
+        "plain yogurt",
+        "greek yogurt",
+        "greek style plain yogurt",
+        "fat free yogurt",
+        "nonfat yogurt",
+        "plain low-fat yogurt",
+        "plain whole-milk yogurt"
+    ],
+    "cheddar cheese": [
+        "cheddar cheese",
+        "shredded cheddar cheese",
+        "shredded sharp cheddar cheese",
+        "sharp cheddar cheese",
+        "reduced fat sharp cheddar cheese",
+        "extra sharp cheddar cheese"
+    ],
+    "mozzarella cheese": [
+        "mozzarella cheese",
+        "shredded mozzarella cheese",
+        "part-skim mozzarella cheese"
+    ],
+    "monterey jack": [
+        "monterey jack",
+        "shredded Monterey Jack cheese",
+        "Mexican cheese blend",
+        "jack cheese",
+        "grated jack cheese"
+    ],
+    "feta cheese": [
+        "feta cheese",
+        "feta cheese crumbles"
+    ],
+    "parmesan cheese": [
+        "parmesan cheese",
+        "grated parmesan cheese",
+        "parmigiano reggiano cheese",
+        "fresh parmesan cheese",
+        "parmigiano-reggiano cheese",
+        "shredded parmesan cheese"
+    ],
+    "soft cheese": [
+        "mascarpone",
+        "ricotta cheese",
+        "cream cheese",
+        "crème fraîche",
+        "cream cheese, soften",
+        "part-skim ricotta cheese",
+        "cottage cheese",
+        "whole milk ricotta cheese"
+    ],
+    "eggs": [
+        "eggs",
+        "large eggs",
+        "egg yolks",
+        "large egg yolks",
+        "egg whites",
+        "large egg whites",
+        "hard-boiled egg",
+        "beaten eggs"
+    ],
+    "chicken broth": [
+        "chicken broth",
+        "chicken stock",
+        "fat free less sodium chicken broth",
+        "low salt chicken broth",
+        "low sodium chicken broth",
+        "reduced sodium chicken broth",
+        "canned low sodium chicken broth",
+        "fat skimmed chicken broth",
+        "chicken bouillon",
+        "lower sodium chicken broth",
+        "chicken bouillon granules"
+    ],
+    "beef broth": [
+        "beef broth",
+        "beef stock"
+    ],
+    "chicken breasts": [
+        "chicken breasts",
+        "boneless skinless chicken breasts",
+        "boneless skinless chicken breast halves",
+        "chicken breast halves",
+        "boneless chicken breast",
+        "cooked chicken breasts",
+        "skinless chicken breasts"
+    ],
+    "pork": [
+        "pork",
+        "ground pork",
+        "pork tenderloin",
+        "pork shoulder",
+        "pork belly",
+        "boneless pork shoulder",
+        "pork loin",
+        "pork butt",
+        "boneless pork loin",
+        "pork loin chops",
+        "pork chops"
+    ],
+    "other chicken": [
+        "chicken thighs",
+        "boneless chicken skinless thigh",
+        "chicken",
+        "cooked chicken",
+        "chicken wings",
+        "chicken legs",
+        "ground chicken",
+        "chicken drumsticks",
+        "chicken pieces",
+        "rotisserie chicken",
+        "chicken livers",
+        "roasting chickens",
+        "chicken meat",
+        "boneless chicken thighs"
+    ],
+    "beef": [
+        "ground beef",
+        "lean ground beef",
+        "beef",
+        "flank steak",
+        "beef rib short",
+        "beef tenderloin",
+        "beef brisket",
+        "skirt steak",
+        "sirloin steak",
+        "steak",
+        "chuck",
+        "chuck roast",
+        "rib",
+        "ground sirloin"
+    ],
+    "cured pork": [
+        "bacon",
+        "bacon slices",
+        "prosciutto",
+        "ham",
+        "pancetta",
+        "bacon drippings",
+        "thick-cut bacon",
+        "cooked ham",
+        "smoked ham hocks"
+    ],
+    "sausages": [
+        "sausages",
+        "andouille sausage",
+        "smoked sausage",
+        "italian sausage",
+        "pork sausages",
+        "sausage casings",
+        "chorizo sausage",
+        "sweet italian sausage",
+        "sausage links",
+        "Italian turkey sausage"
+    ],
+    "shrimp": [
+        "shrimp",
+        "medium shrimp",
+        "large shrimp",
+        "cooked shrimp",
+        "dried shrimp",
+        "jumbo shrimp",
+        "shrimp paste",
+        "deveined shrimp"
+    ],
+    "fish": [
+        "anchovy fillets",
+        "salmon fillets",
+        "catfish fillets",
+        "fish",
+        "fish fillets",
+        "fish stock",
+        "tilapia fillets",
+        "halibut fillets",
+        "anchovy paste",
+        "smoked salmon",
+        "salmon"
+    ],
+    "flour": [
+        "flour",
+        "self rising flour",
+        "bread flour",
+        "cake flour",
+        "whole wheat flour",
+        "all purpose unbleached flour",
+        "plain flour",
+        "all-purpose flour",
+        "semolina flour"
+    ],
+    "cornmeal": [
+        "cornmeal",
+        "yellow corn meal",
+        "cornflour",
+        "corn flour"
+    ],
+    "bread crumbs": [
+        "bread crumbs",
+        "dry bread crumbs",
+        "bread crumb fresh",
+        "panko breadcrumbs",
+        "seasoned bread crumbs"
+    ],
+    "bread": [
+        "bread",
+        "baguette",
+        "french bread",
+        "white bread",
+        "Italian bread",
+        "bread slices",
+        "sourdough bread"
+    ],
+    "noodles": [
+        "noodles",
+        "rice noodles",
+        "egg noodles",
+        "soba noodles",
+        "ramen noodles",
+        "rice vermicelli"
+    ],
+    "pasta": [
+        "pasta",
+        "spaghetti",
+        "linguine",
+        "lasagna noodles",
+        "penne pasta",
+        "fettucine",
+        "bow-tie pasta",
+        "elbow macaroni"
+    ],
+    "tortillas": [
+        "tortillas",
+        "corn tortillas",
+        "flour tortillas",
+        "whole wheat tortillas"
+    ],
+    "rice": [
+        "rice",
+        "cooked rice",
+        "long-grain rice",
+        "basmati rice",
+        "arborio rice",
+        "long grain white rice",
+        "white rice",
+        "brown rice",
+        "jasmine rice",
+        "cooked white rice",
+        "rice flour",
+        "sushi rice",
+        "rice paper",
+        "short-grain rice",
+        "steamed rice"
+    ],
+    "fish sauce": [
+        "fish sauce",
+        "asian fish sauce",
+        "oyster sauce",
+        "Thai fish sauce"
+    ],
+    "hot sauce": [
+        "hot sauce",
+        "hot pepper sauce",
+        "Sriracha",
+        "Tabasco Pepper Sauce",
+        "chili sauce",
+        "Gochujang base",
+        "salsa",
+        "salsa verde",
+        "garlic chili sauce",
+        "sweet chili sauce",
+        "adobo sauce",
+        "taco sauce",
+        "picante sauce"
+    ],
+    "vegetable broth": [
+        "vegetable broth",
+        "vegetable stock"
+    ],
+    "tomato sauce": [
+        "tomato sauce",
+        "pasta sauce",
+        "marinara sauce",
+        "pizza sauce"
+    ],
+    "soy sauce": [
+        "soy sauce",
+        "low sodium soy sauce",
+        "light soy sauce",
+        "dark soy sauce",
+        "reduced sodium soy sauce",
+        "tamari soy sauce",
+        "lower sodium soy sauce",
+        "teriyaki sauce"
+    ]
+
+}
