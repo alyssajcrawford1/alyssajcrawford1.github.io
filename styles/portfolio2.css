@@ -1,0 +1,61 @@
+* {
+    font-family: 'Inconsolata', 'Consolas', 'Courier New', Courier, monospace;
+    text-align: left;
+    line-height: 1.3;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+a:link, a:visited {
+    color: var(--linkA);
+}
+a:hover, a:active {
+    color: var(--linkB);
+}
+
+body {
+    background: var(--bgColor);
+    color: var(--textColor);
+    padding: 10px;
+}
+
+.inlineLI {
+    display: inline;
+}
+
+.textBlock {
+    padding-left: 20px;
+}
+
+
+
+
+body {
+    --textColor: #FFFFFF;
+    --bgColor: #3366FF;
+    --linkA: #FFCCFF;
+    --linkB: #FF99FF;
+}
+body.darkMode {
+    --textColor: #33CC00;
+    --bgColor: #111111;
+    --linkA: #77FF44;
+    --linkB: #44CC55;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        --textColor: #33CC00;
+        --bgColor: #111111;
+        --linkA: #77FF44;
+        --linkB: #33FF99;
+    }
+    body.lightMode {
+        --textColor: #FFFFFF;
+        --bgColor: #3366FF;
+        --linkA: #FFCCFF;
+        --linkB: #FF99FF;
+    }
+}
