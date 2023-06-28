@@ -17,7 +17,7 @@ if (currentTheme == "dark") {
 }
 
 darkModeButton.addEventListener("click", function() {
-    if (prefersDarkScheme) {  //.matches ??
+    if (prefersDarkScheme) {
         document.body.classList.toggle("lightMode");
         if (document.body.classList.contains("lightMode")) {
             theme = "light";
