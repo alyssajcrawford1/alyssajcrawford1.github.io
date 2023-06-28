@@ -42,12 +42,21 @@ nav {
     text-decoration: none;
 }
 
+p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+
 
 body {
     --textColor: #222222;
     --bgColor: #FFFFFF;
-    --accentA: #FF6600;
-    --accentB: #FF9900;
+    --accentA: #EE4400;
+    --accentB: #FF6600;
     background-image: url("clouds.jpg");
 }
 body.darkMode {
@@ -69,8 +78,8 @@ body.darkMode {
     body.lightMode {
         --textColor: #222222;
         --bgColor: #FFFFFF;
-        --accentA: #FF6600;
-        --accentB: #FF9900;
+        --accentA: #EE4400;
+        --accentB: #FF6600;
         background-image: url("clouds.jpg");
     }
 }

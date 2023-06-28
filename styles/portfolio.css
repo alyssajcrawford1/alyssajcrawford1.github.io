@@ -10,9 +10,13 @@ ul{
 
 a:link, a:visited {
     color: var(--linkA);
+    font-weight: bold;
+    text-decoration: none;
 }
 a:hover, a:active {
     color: var(--linkB);
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 h1 {
@@ -70,7 +74,7 @@ pre {
 }
 
 .textBlock {
-    padding-left: 10px;
+    padding-left: 1em;
 }
 
 .accessiblePortfolio {
@@ -89,6 +93,17 @@ h3 {
     font-size: 100%;
     font-weight: normal;
 }
+h4 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
 
 
 
@@ -102,14 +117,14 @@ body.darkMode {
     --textColor: #33CC00;
     --bgColor: #111111;
     --linkA: #77FF44;
-    --linkB: #44CC55;
+    --linkB: #BBFF88;
 }
 @media (prefers-color-scheme: dark) {
     body {
         --textColor: #33CC00;
         --bgColor: #111111;
         --linkA: #77FF44;
-        --linkB: #33FF99;
+        --linkB: #BBFF88;
     }
     body.lightMode {
         --textColor: #FFFFFF;
