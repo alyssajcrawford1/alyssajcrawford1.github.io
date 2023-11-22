@@ -28,7 +28,9 @@
             my corner of the world wide web!
         </p>
         <p>
-            i am a 21 y/o recent cs grad from the university of arizona
+            i am a 
+            <div id="age">0</div>
+            y/o recent cs grad from the university of arizona
             with a love for data, programming, science, and education!<br>
             i'm also a big fan of video games, specialty coffee, animation, and cooking,
             among other things. i may not take myself too seriously, but i
@@ -73,7 +75,7 @@
         <img src="images/88x31s/transnow2.gif" alt="trans rights now!" title="trans rights are human rights!!!!!">
         <img src="images/88x31s/wikipedia.gif" alt="support wikipedia" title="support wikipedia!!!">
         <img src="images/88x31s/minecraft.gif" alt="minecraft" title="you should play minecraft">
-        <!--<img src="images/88x31s/thismachine.png" alt="this machine kills fascists" title="this machine kills fascists X3">-->
+        <img src="images/88x31s/thismachine.png" alt="this machine kills fascists" title="this machine kills fascists X3">
         <img src="images/88x31s/right2repair.png" alt="i support the right to repair" title="i support the right to repair">
         <img src="images/88x31s/eeveelutions-sylveon.gif" alt="i love sylveon (the pokemon)" title="sylveon is the cutest pokemon">
         <img src="images/88x31s/madewithlove.png" alt="made with love" title="this site was made with love &lt;3">
@@ -98,6 +100,19 @@
     </footer>
 
     <script src="script/lightdarkmode.js"></script>
+
+    <script>
+        function calcAge() {
+            var birthDate = new Date(2001, 7, 14);
+            var curDate = new Date();
+
+            var timeDiff = Math.abs(curDate.getTime() - birthDate.getTime());
+            var age = Math.ceil(timeDiff / (1000 * 3600 * 24)) / 365;
+
+            document.getElementById('age').innerHTML = age
+        }
+
+    </script>
 </body>
 
 </html>
