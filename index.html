@@ -107,7 +107,7 @@
             var curDate = new Date();
 
             var timeDiff = Math.abs(curDate.getTime() - birthDate.getTime());
-            var age = Math.ceil(timeDiff / (1000 * 3600 * 24)) / 365;
+            var age = Math.floor(Math.ceil(timeDiff / (1000 * 3600 * 24)) / 365);
 
             document.getElementById('age').innerHTML = age
         }
