@@ -261,7 +261,7 @@ button {
 /* Light / Dark Mode Variables */
 
 body {
-    --textColor: #EE5500;
+    --textColor: #3300ff;
     --bgColor: #DDDCDB66;
     --boxColor: #EEEDEC;
     --shadow: #50505080;
@@ -283,7 +283,7 @@ body.darkMode {
   
 @media (prefers-color-scheme: dark) {
     body {
-        --textColor: #ff6a00;
+        --textColor: #ffee00;
         --bgColor: #22212066;
         --boxColor: #333231;
         --shadow: #11100F80;
