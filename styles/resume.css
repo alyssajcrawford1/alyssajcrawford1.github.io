@@ -262,7 +262,7 @@ button {
 
 body {
     --textColor: #3300ff;
-    --bgColor: #DDDCDB66;
+    --bgColor: #ffffff70;
     --boxColor: #EEEDEC;
     --shadow: #50505080;
     --hover: #FF8833;
@@ -297,7 +297,7 @@ body.darkMode {
     }
     body.lightMode {
         --textColor: #3300ff;
-        --bgColor: #DDDCDB66;
+        --bgColor: #ffffff70;
         --boxColor: #EEEDEC;
         --shadow: #50505080;
         --hover: #FF8833;
