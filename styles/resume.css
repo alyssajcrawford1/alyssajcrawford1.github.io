@@ -7,7 +7,7 @@ html, body {
     width: 100%;
 }
 body {
-    /*background: var(--bgColor);*/
+    background: var(--bgBackup);
     color: var(--textColor);
     margin: 0px;
 }
@@ -268,6 +268,7 @@ body {
     --hover: #FF8833;
     --subheader: #EE5500;
     --imgOpacity: 1;
+    --bgBackup: #8e996b;
     --bgImageURL: url("../images/inverness.jpg");
 }
 body.darkMode {
@@ -278,6 +279,7 @@ body.darkMode {
     --subheader: #FF8833;
     --hover: #FFCC00;
     --imgOpacity: 0.8;
+    --bgBackup: #403934;
     --bgImageURL: url("../images/stgiles.jpg");
 }
   
@@ -290,6 +292,7 @@ body.darkMode {
         --subheader: #FF8833;
         --hover: #FFCC00;
         --imgOpacity: 0.8;
+        --bgBackup: #403934;
         --bgImageURL: url("../images/stgiles.jpg");
     }
     body.lightMode {
@@ -300,6 +303,7 @@ body.darkMode {
         --hover: #FF8833;
         --subheader: #EE5500;
         --imgOpacity: 1;
+        --bgBackup: #8e996b;
         --bgImageURL: url("../images/inverness.jpg");
     }
 }
