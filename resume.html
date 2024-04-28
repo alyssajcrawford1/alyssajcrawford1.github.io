@@ -11,30 +11,29 @@
     <link rel="stylesheet" href="styles/resume.css"/>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap">
+
 </head>
 
 <body>
-    <header>
-        <h1 id="headerBox">RESUME</h1>
+    <div class="bgImage">
+        <div class="blur"></div>
+    </div>
 
+    <div class="content">
+    <header>
+        <h1 class="visuallyhidden">Resume</h1>
         <nav> <ul id="navList">
             <li class="navItem"><a href="index.html">HOME</a></li>
-            <li class="navItem" id="curPage">RESUME</li>
             <li class="navItem"><a href="portfolio.html">PORTFOLIO</a></li>
         </ul> </nav>
     </header>
 
     <main>
-    <div class="flexParentResume">
-        <div id="leftBox" class="resumeChild">
-            <img src="images/trotternish.jpg" 
-                alt="Selfie from up high in the Trotternish (Tròndairnis), 
-                Isle of Skye, Scotland. There is lush grass, wind in my face, clouds
-                just out of reach, and ocean behind me. 2023."
-                title="Me, up high in the Tròndairnis, Isle of Skye, Scotland. 2023.">
-            
-            <h2>ALYSSA CRAWFORD</h2>
+        <h2 id="randomHeader">Alyssa Crawford is a data nerd.</h2>
+        <hr>
+
+        <div class="flexParentResume">
+            <div id="leftBox" class="resumeChild">
             
             <ul class="inlineUL">
                 <li class="noBulletLI">
@@ -82,33 +81,31 @@
                 solving puzzles, and using my skills to help people, the planet, 
                 and everything in-between!
             </p>
-            
-        </div>
+            </div>
 
         <div id="rightBox" class="resumeChild">
-            <h2 class="topHeader">EDUCATION</h2>
+            <h3 class="topHeader">EDUCATION</h3>
             <p>
-                <h3>Bachelor of Science in Computer Science</h3>
+                <h4>Bachelor of Science in Computer Science</h4>
                 <span class="date">May 2023</span>
-                <h4>University of Arizona, Tucson, AZ</h4>
+                University of Arizona, Tucson, AZ
                 Minor in ISTA (Information Science, Technology, & the Arts)<br>
             </p>
 
             <hr>
-            <h2>EXPERIENCE</h2>
+            <h3>EXPERIENCE</h3>
             <dl>
 
                 <dt>
-                    <h3>Teaching Assistant - Data Bootcamp</h3> 
+                    <h4>Teaching Assistant - Data Bootcamp</h4> 
                     <span class="date">August 2023 - Present</span>
-                    <h4>
-                        <a target=”_blank” href="https://www.edx.org/boot-camps/data-analytics">edX</a>, Remote
-                    </h4>
+                    <a target=”_blank” href="https://www.edx.org/boot-camps/data-analytics">edX</a>, Remote
+                    
                 </dt>
                 <dd><ul class="bulletUL">
                     <li class="bulletLI">Aids in teaching an online bootcamp centered on
                         data analytics and visualization using Python,
-                        SQL, Javascript, NoSQL, Excel, and more.
+                        SQL, Excel, Javascript, Tableau, and more.
                     </li>
                     <li class="bulletLI">Troubleshoots student programming problems during and after hours.
                     </li>
@@ -117,26 +114,26 @@
                     </li>
                 </ul></dd>
 
-                <dt>
-                    <h3>Front of House</h3> 
+                <!--<dt>
+                    <h4>Front of House</h4> 
                     <span class="date">August 2023 - Present</span>
-                    <h4>
+                    
                         <a target=”_blank” href="https://taylorsdonuts.com/">Taylor's Donuts</a>, Lawrence, KS
-                    </h4>
+                    
                 </dt>
                 <dd><ul class="bulletUL">
                     <li class="bulletLI">Maintains a high standard of customer service and hospitality
                         while serving artisan donuts and specialty coffee.</li>
                     <li class="bulletLI">Undertakes all front of house operations, including food service, 
                         Square POS, cleaning, stocking, and machine maintenance.</li>
-                </ul></dd>
+                </ul></dd>-->
 
                 <dt>
-                    <h3>Section Leader - ISTA 131 "Dealing with Data"</h3> 
+                    <h4>Section Leader - ISTA 131 "Dealing with Data"</h4> 
                     <span class="date">August 2021 - May 2023</span>
-                    <h4>
+                    
                         <a target=”_blank” href="https://www.arizona.edu/">University of Arizona</a>, Tucson, AZ
-                    </h4>
+                    
                 </dt>
                 <dd><ul class="bulletUL">
                     <li class="bulletLI">Lead a weekly 2-hour lab section, giving review lectures on topics 
@@ -148,14 +145,14 @@
                 </ul></dd>
                 
                 <dt>
-                    <h3>
+                    <h4>
                         <a target=”_blank” href="https://pitcases.org/">PIT-UN</a> 
                         Data Science Intern
-                    </h3> 
+                    </h4> 
                     <span class="date">May 2022 - August 2022</span>
-                    <h4>
+                    
                         <a target=”_blank” href="https://www.arizona.edu/">University of Arizona</a>, Tucson, AZ
-                    </h4>
+                    
                 </dt>
                 <dd><ul class="bulletUL">
                     <li class="bulletLI">Developed skills in data science, data visualization, machine learning, 
@@ -166,11 +163,11 @@
                 </ul></dd>
 
                 <dt>
-                    <h3>Code Sensei (Children's Coding Instructor)</h3> 
+                    <h4>Code Sensei (Children's Coding Instructor)</h4> 
                     <span class="date">October 2021 - May 2022</span>
-                    <h4>
+                    
                         <a target=”_blank” href="https://www.codeninjas.com/az-tucson">Code Ninjas</a>, Tucson, AZ
-                    </h4>
+                    
                 </dt>
                 <dd><ul class="bulletUL">
                     <li class="bulletLI">Taught and guided students ages 7-13 through computer programming topics 
@@ -181,50 +178,20 @@
             </dl>
 
             <hr>
-            <h2>SKILLS</h2>
+            <h3>SKILLS</h3>
             <dl>
-                <dt><h3>Languages</h3></dt>
-                <dd><ul class="inlineUL">
-                    <li class="inlineLI">Python, </li>
-                    <li class="inlineLI">Java, </li>
-                    <li class="inlineLI">SQL, </li>
-                    <li class="inlineLI">Javascript, </li>
-                    <li class="inlineLI">R, </li>
-                    <li class="inlineLI">HTML, </li>
-                    <li class="inlineLI">CSS, </li>
-                    <li class="inlineLI">C, </li>
-                    <li class="inlineLI">Assembly, </li>
-                    <li class="inlineLI">PHP </li>
-                </ul></dd>
-                <dt><h3>Tools & Technical Skills</h3></dt>
-                <dd><ul class="inlineUL">
-                    <li class="inlineLI">Data Analysis (<em>Anaconda, R tidyverse</em>), </li>
-                    <li class="inlineLI">Machine Learning (<em>scikit-learn, OpenCV</em>), </li>
-                    <li class="inlineLI">Databases, </li>
-                    <li class="inlineLI">Data Tidying, </li>
-                    <li class="inlineLI">Data Visualization (<em>Matplotlib, Jupyter, D3.js, vega.js, ggplot2</em>), </li>
-                    <li class="inlineLI">Object-Oriented Programming, </li>
-                    <li class="inlineLI">Testing, </li>
-                    <li class="inlineLI">Computer Science Theory, </li>
-                    <li class="inlineLI">Teamwork (<em>git, GitHub, Agile Methodologies</em>), </li>
-                    <li class="inlineLI">Statistics & Mathematics </li>
-                </ul></dd>
-                <dt><h3>Additional Skills</h3></dt>
-                <dd><ul class="inlineUL">
-                    <li class="inlineLI">Education, </li>
-                    <li class="inlineLI">Research, </li>
-                    <li class="inlineLI">Ethics, </li>
-                    <li class="inlineLI">Leadership, </li>
-                    <li class="inlineLI">Other Sciences, </li>
-                    <li class="inlineLI">Conflict Resolution, </li>
-                    <li class="inlineLI">Customer Service, </li>
-                    <li class="inlineLI">Accessibility, </li>
-                    <li class="inlineLI">eCommerce (Shopify), </li>
-                    <li class="inlineLI">Specialty Coffee </li>
-                </ul></dd>
+                <dt><h4>Languages</h4></dt>
+                <dd>Python, Java, SQL, Javascript, R, HTML, CSS, C, Assembly, PHP</dd>
+                <dt><h4>Tools & Technical Skills</h4></dt>
+                <dd>Data Analysis (<em>Anaconda, R tidyverse</em>), Machine Learning (<em>scikit-learn, OpenCV</em>), Databases,
+                    Data Tidying, Data Visualization (<em>Matplotlib, Jupyter, D3.js, vega.js, ggplot2</em>), Object-Oriented Programming,
+                    Testing, Computer Science Theory, Teamwork (<em>git, GitHub, Agile Methodologies</em>), Statistics & Mathematics</dd>
+                <dt><h4>Additional Skills</h4></dt>
+                <dd>Education, Research, Ethics, Leadership, Other Sciences, Conflict Resolution, Customer Service, 
+                    Accessibility, eCommerce (Shopify), Specialty Coffee</dd>
             </dl>
         </div>
-    </div>
+        </div>
     </main>
 
     <footer>
@@ -233,9 +200,11 @@
         Written by Alyssa Crawford (2023)<br>
         <a href="mailto:alyssajcrawford1@gmail.com"> alyssajcrawford1@gmail.com</a>
         </small>
-
-        <script src="script/lightdarkmode.js"></script>
     </footer>
+    </div>
+    
+    <script src="script/lightdarkmode.js"></script>
+    
 </body>
 
 </html>
