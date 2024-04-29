@@ -173,7 +173,7 @@ h4 {
 }
 @media (max-width: 750px) {
     main {
-        margin: 10vw 0vw 10vw 0vw;
+        margin: 0vw 10vw 0vw 10vw;
     }
     .flexParentResume {
         flex-direction: column;
@@ -232,7 +232,7 @@ button {
 .date {
     float: right;
 }
-@media (max-width: 1030px) {
+@media (max-width: 900px) {
     .date {
         float: none;
         display: block;
