@@ -1,0 +1,24 @@
+body {
+    background-color: var(--bgColor);
+    color: var(--textColor);
+}
+
+body {
+    --textColor: #222222;
+    --bgColor: #FFFFFF;
+}
+body.darkMode {
+    --textColor: #EEEEEE;
+    --bgColor: #121212;
+}
+  
+@media (prefers-color-scheme: dark) {
+    body {
+        --textColor: #EEEEEE;
+        --bgColor: #121212;
+    }
+    body.lightMode {
+        --textColor: #222222;
+        --bgColor: #FFFFFF;
+    }
+}

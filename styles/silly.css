@@ -7,6 +7,7 @@ body {
     background-color: var(--bgColor);
     background-repeat: repeat;
     background-size: 20%;
+    background-attachment: fixed;
     color: var(--textColor);
 }
 
@@ -57,14 +58,14 @@ body {
     --bgColor: #FFFFFF;
     --accentA: #EE4400;
     --accentB: #FF6600;
-    background-image: url("clouds.jpg");
+    background-image: url("../images/clouds.jpg");
 }
 body.darkMode {
     --textColor: #EEEEEE;
     --bgColor: #121212;
     --accentA: #FF9900;
     --accentB: #FF6600;
-    background-image: url("starry.gif");
+    background-image: url("../images/starry.gif");
 }
   
 @media (prefers-color-scheme: dark) {
@@ -73,13 +74,13 @@ body.darkMode {
         --bgColor: #121212;
         --accentA: #FF9900;
         --accentB: #FF6600;
-        background-image: url("starry.gif");
+        background-image: url("../images/starry.gif");
     }
     body.lightMode {
         --textColor: #222222;
         --bgColor: #FFFFFF;
         --accentA: #EE4400;
         --accentB: #FF6600;
-        background-image: url("clouds.jpg");
+        background-image: url("../images/clouds.jpg");
     }
 }
