@@ -1,81 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://alyssajcrawford.gay/</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
+        <loc>https://www.alyssajcrawford.gay/</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>1.00</priority>
-        <changefreq></changefreq>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/index.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
+        <loc>https://www.alyssajcrawford.gay/index.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.95</priority>
-        <changefreq></changefreq>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/resume.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.90</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/resume.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/portfolio.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.90</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/portfolio.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/contact.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.80</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/contact.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/sitemap.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.20</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/portfolio/coffee.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/portfolio/coffee.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.40</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/portfolio2.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/portfolio/worldCuisines.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.40</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/portfolio/worldCuisines.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/privacy.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.20</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/sitemap.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/terms.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.20</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/privacy.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/cookies.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.20</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/terms.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/portfolio2.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.20</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/cookies.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://alyssajcrawford.gay/faq.html</loc>
-        <lastmod>2024-05-06T23:35:09+00:00</lastmod>
-        <priority>0.20</priority>
-        <changefreq></changefreq>
+        <loc>https://www.alyssajcrawford.gay/faq.html</loc>
+        <lastmod>2024-05-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
     </url>
-    </urlset>
+</urlset>
