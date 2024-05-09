@@ -214,6 +214,14 @@ pre {
     box-shadow: -3px 3px 3px var(--shadow);*/
 }
 
+abbr {
+    text-decoration: none;
+}
+address {
+    font-style: normal;
+    display: inline;
+}
+
 footer {
     text-align: center;
     padding: 20px;
