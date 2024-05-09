@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <button class="accessiblePortfolio"><a href="portfolio2.html">accessible mode</a></button><br>
+        <button class="accessiblePortfolio" onclick="toggleAccessibleTheme()">accessible mode</button><br>
         <pre class="asciiArt" aria-label="ASCII art that says portfolio" title="portfolio">
                       __  ____      ___
     ____  ____  _____/ /_/ __/___  / (_)___
@@ -30,13 +30,17 @@
   / /_/ / /_/ / /  / /_/ __/ /_/ / / / /_/ /
  / .___/\____/_/   \__/_/  \____/_/_/\____/
 /_/<br><br></pre>
+
         <h1>Initializing portfolio...</h1><br>
         <nav>
             <ul>
-                <li><b>alyssajcrawford@gay portfolio %</b> cd ../<a href="index.html">home</a></li>
-                <li><b>alyssajcrawford@gay portfolio %</b> cd ../<a href="resume.html">resume</a></li>
+                <li><div class="decorative">
+                    <b>alyssajcrawford@gay portfolio %</b> cd ../</div><a href="index.html">home</a></li>
+                <li><div class="decorative">
+                    <b>alyssajcrawford@gay portfolio %</b> cd ../</div><a href="resume.html">resume</a></li>
             </ul>
 
+            <div class="decorative">
             <h2><b>alyssajcrawford@gay portfolio %</b> ls</h2>
             <ul class="textBlock">
                 <li class="inlineLI"><pre><a target=”_blank” href="portfolio/coffee.html">coffee</a>                </pre></li>
@@ -48,12 +52,13 @@
                 <!--<li class="inlineLI"><pre>              </pre></li>-->
                 <!--<li class="inlineLI">TBD<br></li>-->
             </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-        <h3><b>alyssajcrawford@gay portfolio %</b> cat 
-            <a target=”_blank” href="portfolio/coffee.html">coffee</a>/README.txt<br></h3>
+        <h2><div class="decorative"><b>alyssajcrawford@gay portfolio %</b> cat </div>
+            <a target=”_blank” href="portfolio/coffee.html">coffee</a><div class="decorative">/README.txt</div></h2>
         <div class="textBlock">
             <h4>*** COFFEE QUALITY DATA VIZ PROJECT ***</h4>
             This final project for 
@@ -67,8 +72,8 @@
             <a target=”_blank” href="portfolio/coffee.html">coffee</a><br>
         </div>
 
-        <h3><b>alyssajcrawford@gay portfolio %</b> cat 
-            <a target=”_blank” href="portfolio/worldCuisines.html">worldCuisines</a>/README.txt</h3>
+        <h2><div class="decorative"><b>alyssajcrawford@gay portfolio %</b> cat </div>
+            <a target=”_blank” href="portfolio/worldCuisines.html">worldCuisines</a><div class="decorative">/README.txt</div></h2>
         <div class="textBlock">
             <h4>*** WORLD CUISINES DATA VIZ PROJECT ***</h4>
             This final project for 
@@ -86,7 +91,8 @@
             <a target=”_blank” href="https://github.com/alyssajcrawford1/alyssajcrawford1.github.io/tree/main/portfolio/worldCuisinesSource">GitHub</a>!
         </div>
 
-        <h3><b>alyssajcrawford@gay portfolio %</b> cat <b>rockPools</b>/README.txt</h3>
+        <h2><div class="decorative"><b>alyssajcrawford@gay portfolio %</b> cat </div>
+            <b>rockPools</b><div class="decorative">/README.txt</div></h2>
         <div class="textBlock">
             <h4>*** PIT-UN ROCK POOL COMPUTER VISION PROJECT ***</h4>
             In the summer of 2022, I participated in the University of Arizona 
@@ -104,7 +110,8 @@
             Check back later for updates!
         </div>
         
-        <h3><b>alyssajcrawford@gay portfolio %</b> cat <b>vizSA</b>/README.txt</h3>
+        <h2><div class="decorative"><b>alyssajcrawford@gay portfolio %</b> cat </div>
+            <b>vizSA</b><div class="decorative">/README.txt</div></h2>
         <div class="textBlock">
             <h4>*** INTERACTIVE DIGITAL ART PROJECT ON SEXUAL ASSAULT ***</h4>
             Made with 
@@ -118,7 +125,8 @@
             Still working on getting this on a webpage, maybe I can update the dataset.
         </div>
 
-        <h3><b>alyssajcrawford@gay portfolio %</b> cat <b>minesweeper</b>/README.txt</h3>
+        <h2><div class="decorative"><b>alyssajcrawford@gay portfolio %</b> cat </div>
+            <b>minesweeper</b><div class="decorative">/README.txt</div></h2>
         <div class="textBlock">
             <h4>*** MINESWEEPER / AGILE PROJECT ***</h4>
             This final project for 
@@ -135,7 +143,8 @@
             this time out of respect for the privacy of my peers.
         </div>
 
-        <h3><b>alyssajcrawford@gay portfolio %</b> cat <b>compiler</b>/README.txt</h3>
+        <h2><div class="decorative"><b>alyssajcrawford@gay portfolio %</b> cat </div>
+            <b>compiler</b><div class="decorative">/README.txt</div></h2>
         <div class="textBlock">
             <h4>*** COMPILER PROJECT ***</h4>
             As the final project for 
@@ -150,10 +159,12 @@
         </div>
 
         <!--
-        <h3><b>alyssajcrawford@gay portfolio %</b> cat nothing/README.txt<br></h3>
-        <p class="textBlock">
+        <h2><div class="decorative"><b>alyssajcrawford@gay portfolio %</b> cat </div>
+            nothing
+            <div class="decorative">/README.txt</div></h2>
+        <div class="textBlock">
             Nothing here yet!
-        </p>
+        </div>
         -->
     </main>
 
@@ -161,13 +172,25 @@
         <hr><br>
         <button class="darkModeButton">toggle</button><br><br>
         Having trouble navigating this page? Click here:&nbsp;
-        <button><a href="portfolio2.html">accessible mode</a></button>
+        <button onclick="toggleAccessibleTheme()">accessible mode</button>
         <br><br>
         Written by Alyssa Crawford (2024)<br>
         <a href="mailto:alyssajcrawford1@gmail.com"> alyssajcrawford1@gmail.com</a>
     </footer>
 
     <script src="script/lightdarkmode.js"></script>
+    <script>
+        function toggleAccessibleTheme() {
+            var theme = document.getElementsByTagName('link')[0];
+            if (theme.getAttribute('href') == 'styles/portfolio.css') { 
+                theme.setAttribute('href', 'styles/portfolio2.css'); 
+            } else if (theme.getAttribute('href') == 'styles/portfolio2.css') { 
+                theme.setAttribute('href', 'styles/portfolio.css'); 
+            } else {
+                theme.setAttribute('href', 'styles/portfolio.css'); 
+            }
+        }
+    </script>
 </body>
 
 </html>

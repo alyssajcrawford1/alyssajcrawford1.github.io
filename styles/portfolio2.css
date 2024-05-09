@@ -22,12 +22,16 @@ body {
     padding: 10px;
 }
 
-.inlineLI {
-    display: inline;
-}
-
 .textBlock {
     padding-left: 20px;
+}
+
+.decorative {
+    display: none;
+}
+
+.asciiArt {
+    display: none;
 }
 
 
