@@ -237,6 +237,11 @@ button {
     box-shadow: 0px 5px 15px var(--shadow);
 }
 
+p {
+    padding: 0px;
+    margin: 5px 0px 10px 0px;
+}
+
 .date {
     float: right;
 }
