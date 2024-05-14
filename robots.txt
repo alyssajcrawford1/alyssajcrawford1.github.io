@@ -16,4 +16,52 @@
 # \ ------------------------------ /
 #  \______________________________/
 
+
+# There's nothing here for you ;)
+
+User-agent: *
+Disallow: /empty
+Disallow: /coolstuff
+Disallow: /portfolio/d3Showcase
+Allow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+User-agent: Googlebot-Video
+Disallow: /
+User-agent: Googlebot-News
+Disallow: /
+User-agent: Storebot-Google
+Disallow: /
+
+
+# Do NOT use my website to train generative AI :3
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+
+# Go away
+
+User-agent: 008
+Disallow: /
+
+
+# This is my sitemap!! Yippee!!
+
 Sitemap: https://www.alyssajcrawford.gay/sitemap.xml
