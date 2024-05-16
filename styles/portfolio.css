@@ -2,114 +2,58 @@
     font-family: 'Inconsolata', 'Courier New', Courier, monospace;
     text-align: left;
 }
-
-ul{
-    padding: 0px;
-    list-style: none;
-}
-
-a:link, a:visited {
-    color: var(--linkA);
-    font-weight: bold;
-    text-decoration: none;
-}
-a:hover, a:active {
-    color: var(--linkB);
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-h1 {
-    font-size: 100%;
-    padding: 0px;
-    margin: 0px;
-    font-weight: normal;
-}
-
 body {
     background: var(--bgColor);
     color: var(--textColor);
     padding: 10px;
 }
-
-.asciiArt {
+header, nav, main, p, h1, h2, h3, h4, ul, pre, .asciiArt {
     padding: 0px;
     margin: 0px;
+}
+nav, main {
+    line-height: 1.3;
+}
+h1, h2, h3, h4 {
+    font-size: 100%;
+    font-weight: normal;
+}
+ul {
+    line-height: 1.3;
+    list-style: none;
+}
+a {
+    font-weight: bold;
+}
+a:link, a:visited {
+    color: var(--linkA);
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: var(--linkB);
+    text-decoration: underline;
+}
+pre, .inlineLI, .decorative {
+    display: inline;
+}
+.asciiArt {
     line-height: 1;
 }
+.textBlock {
+    padding-left: 1em;
+}
+.accessiblePortfolio {
+    float: right;
+}
 
+/* responsive */
 @media (max-width: 750px) {
     body {
         font-size: 80%;
     }
 }
 
-header {
-    padding: 0px;
-    margin: 0px;
-}
-nav {
-    padding: 0px;
-    margin: 0px;
-    line-height: 1.3;
-}
-main {
-    padding: 0px;
-    margin: 0px;
-    line-height: 1.3;
-}
-ul {
-    padding: 0px;
-    margin: 0px;
-    line-height: 1.3;
-}
-pre {
-    padding: 0px;
-    margin: 0px;
-    display: inline;
-}
-
-.inlineLI {
-    display: inline;
-}
-
-.textBlock {
-    padding-left: 1em;
-}
-
-.accessiblePortfolio {
-    float: right;
-}
-
-h2 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 100%;
-    font-weight: normal;
-}
-h3 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 100%;
-    font-weight: normal;
-}
-h4 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 100%;
-    font-weight: normal;
-}
-
-p {
-    padding: 0px;
-    margin: 0px;
-}
-.decorative {
-    display: inline;
-}
-
-
-
+/* dark/light mode config */
 body {
     --textColor: #FFFFFF;
     --bgColor: #3366FF;

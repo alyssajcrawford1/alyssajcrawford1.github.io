@@ -3,6 +3,7 @@ body {
     color: var(--textColor);
 }
 
+/* dark/light mode config*/
 body {
     --textColor: #222222;
     --bgColor: #FFFFFF;
@@ -11,7 +12,6 @@ body.darkMode {
     --textColor: #EEEEEE;
     --bgColor: #121212;
 }
-  
 @media (prefers-color-scheme: dark) {
     body {
         --textColor: #EEEEEE;

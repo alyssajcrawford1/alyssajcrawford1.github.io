@@ -2,7 +2,6 @@
     font-family: Times, 'Times New Roman', serif;
     text-align: center;
 }
-
 body {
     background-color: var(--bgColor);
     background-repeat: repeat;
@@ -10,51 +9,41 @@ body {
     background-attachment: fixed;
     color: var(--textColor);
 }
-
+nav {
+    float: center;
+    list-style-type: none;
+}
+main {
+    border-top: 1px solid var(--accentA);
+    border-bottom: 1px solid var(--accentA);
+    margin: 10px;
+}
+p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
 a:link, a:visited {
     color: var(--accentA);
 }
 a:hover, a:active {
     color: var(--accentB);
 }
-
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
-
 ul li {
     display: inline;
 }
-
-main {
-    border-top: 1px solid var(--accentA);
-    border-bottom: 1px solid var(--accentA);
-    margin: 10px;
+abbr {
+    text-decoration: none;
 }
-
-nav {
-    float: center;
-    list-style-type: none;
-}
-
 .linkBadge {
     text-decoration: none;
 }
 
-p {
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-abbr {
-    text-decoration: none;
-}
-
-
-
-
+/* dark/light mode config*/
 body {
     --textColor: #222222;
     --bgColor: #FFFFFF;
@@ -69,7 +58,6 @@ body.darkMode {
     --accentB: #FF6600;
     background-image: url("../images/starry.gif");
 }
-  
 @media (prefers-color-scheme: dark) {
     body {
         --textColor: #EEEEEE;

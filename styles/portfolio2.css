@@ -3,40 +3,29 @@
     text-align: left;
     line-height: 1.3;
 }
-
+body {
+    background: var(--bgColor);
+    color: var(--textColor);
+    padding: 10px;
+}
 ul{
     list-style: none;
     padding: 0px;
 }
-
 a:link, a:visited {
     color: var(--linkA);
 }
 a:hover, a:active {
     color: var(--linkB);
 }
-
-body {
-    background: var(--bgColor);
-    color: var(--textColor);
-    padding: 10px;
-}
-
 .textBlock {
     padding-left: 20px;
 }
-
-.decorative {
+.decorative, .asciiArt {
     display: none;
 }
 
-.asciiArt {
-    display: none;
-}
-
-
-
-
+/* dark/light mode config */
 body {
     --textColor: #FFFFFF;
     --bgColor: #3366FF;
