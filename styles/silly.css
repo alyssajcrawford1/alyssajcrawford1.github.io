@@ -48,6 +48,9 @@ p {
     margin-right: 40px;
 }
 
+abbr {
+    text-decoration: none;
+}
 
 
 
