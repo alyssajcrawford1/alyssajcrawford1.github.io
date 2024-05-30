@@ -110,9 +110,6 @@ button {
     margin: 0px;
     padding: 10px;
 }
-.navItem a {
-    display: inline-block;
-}
 #flexParentResume {
     display: flex;
     flex-direction: row;
@@ -149,6 +146,7 @@ button {
 }
 .inlineLI {
     display: inline;
+    padding: 0px 6px 0px 6px;
 }
 /*blurred bg image*/
 #bgImage { 
