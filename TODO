@@ -1,13 +1,13 @@
-- Index: Hover over gifs for animation
++ Index: Hover over gifs for animation
 - Terms: Content
-- Cookies: Content
++ Cookies: Content
 - Contact: CSS
 - Resume: CSS alterations for readability? link color
 - Resume: social links marquee
 - Resume: bio (random?)
-- Resume: smaller background images
++ Resume: smaller background images
 - Portfolio: generally improve readability
-- Portfolio: Fix accessibility options, Javascript or CSS
++ Portfolio: Fix accessibility options, Javascript or CSS
 - Portfolio: Drop down menu?
 - Portfolio: make more projects visible
 - Sitemap: CSS
@@ -15,10 +15,10 @@
 - FAQ: CSS
 - Privacy/Terms/Cookies: CSS
 - error pages
-- abbr/acronym tags
-- time tags
-- address tags
-- Contact: form?S
++ abbr/acronym tags
++ time tags
++ address tags
+- Contact: form?
 - favicon
 - other meta tags
 - Cookies consent popup
