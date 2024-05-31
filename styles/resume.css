@@ -58,8 +58,9 @@ h1 {
 }
 h2 {
     font-family: "terminal_grotesque", Verdana, Arial, sans-serif;
-    font-size: 10vw;
+    font-size: 9vw;
     font-weight: normal;
+    display: inline;
 }
 h3, h4 {
     margin-bottom: 4px;
@@ -86,7 +87,7 @@ address {
     display: inline;
 }
 button {
-    background: rgba(0,0,0,.1);
+    background: rgba(0,0,0,.15);
     border-radius: 5px;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -94,6 +95,9 @@ button {
     padding: 5px;
     color: var(--textColor);
     box-shadow: 0px 5px 15px var(--shadow);
+}
+button:hover{
+    background: rgba(0,0,0,.2);
 }
 #navList {
     display: inline-block;
@@ -109,6 +113,17 @@ button {
 .navItem {
     margin: 0px;
     padding: 10px;
+}
+#randomHeader {
+    font-family: "terminal_grotesque", Verdana, Arial, sans-serif;
+    font-size: 9vw;
+    font-weight: normal;
+}
+#randomizer {
+    font-size: 3vw;
+    padding: 0vw 1vw 0vw 1vw;
+    -webkit-transform: translateY(-1.5vw);
+	transform: translateY(-1.5vw);
 }
 #flexParentResume {
     display: flex;

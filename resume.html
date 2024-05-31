@@ -38,7 +38,8 @@
     </header>
 
     <main>
-        <h2 id="randomHeader">Alyssa Crawford is a data nerd.</h2>
+        <h2>Alyssa Crawford is </h2><span id="randomHeader">a data nerd</span><h2>.</h2>
+        <button id="randomizer" onclick="getRandomHeader();">⟳</button>
         <hr>
 
         <div id="flexParentResume">
@@ -211,6 +212,23 @@
     </div>
     
     <script src="script/lightdarkmode.js"></script>
+    <script>
+        function getRandomHeader() {
+            var descriptions = ["a coffee lover", "an educator", "an avid learner",
+                                "an info sponge", "a total geek", "a cat mom",
+                                "a desert child", "a creative", "a foodie",
+                                "a gamer", "a puzzle solver", "a sudoku speedrunner",
+                                "a home chef", "a science buff", "a computer scientist",
+                                "a researcher", "a humanist", "a real person (not AI)",
+                                "a gardener", "an artist", "a tech whiz",
+                                "a lifelong learner", "a programmer", "a traveller",
+                                "a newbie", "a good friend", "a do-gooder",
+                                "a collector", "a data nerd"];
+            var descriptor = descriptions[Math.floor(Math.random() * descriptions.length)];
+            
+            document.getElementById("randomHeader").innerHTML = descriptor;
+        }
+    </script>
     
 </body>
 
