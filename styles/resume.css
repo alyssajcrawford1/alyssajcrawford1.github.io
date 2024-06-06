@@ -124,6 +124,7 @@ button:hover{
     padding: 0vw 1vw 0vw 1vw;
     -webkit-transform: translateY(-1.5vw);
 	transform: translateY(-1.5vw);
+    font-weight: bold;
 }
 #flexParentResume {
     display: flex;
@@ -163,6 +164,10 @@ button:hover{
     display: inline;
     padding: 0px 6px 0px 6px;
 }
+.icon {
+    font-family: "Icons";
+    display: inline;
+}
 /*blurred bg image*/
 #bgImage { 
     position: fixed;
@@ -187,7 +192,7 @@ button:hover{
     overflow: auto;
 }
 /* responsive */
-@media (max-width: 750px) {
+@media (max-width: 910px) {
     header {
         flex-direction: column;
     }
@@ -208,8 +213,6 @@ button:hover{
     #rightBox {
         margin-left: 0;
     }
-}
-@media (max-width: 900px) {
     .date {
         float: none;
         display: block;
@@ -234,6 +237,15 @@ button:hover{
          url('fonts/UncutSans-Regular.woff2') format('woff2'),
          url('fonts/UncutSans-Regular.woff') format('woff'),
          url('fonts/UncutSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Icons';
+    src: url('fonts/icomoon.eot');
+    src: url('fonts/icomoon.woff') format('woff'),
+         url('fonts/icomoon.ttf') format('truetype'),
+         url('fonts/icomoon.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }

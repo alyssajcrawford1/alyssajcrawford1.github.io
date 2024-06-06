@@ -18,8 +18,6 @@
     <meta name="color-scheme" content="dark light">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/resume.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 </head>
 
 <body>
@@ -47,38 +45,39 @@
             
             <ul class="inlineUL">
                 <li class="noBulletLI">
-                    <pre><i class="fi fi-sr-envelope"></i> <a href="mailto:alyssajcrawford1@gmail.com">alyssajcrawford1@gmail.com</a></pre>
+                    <div class="icon">&#xea85;</div>
+                    <a href="mailto:alyssajcrawford1@gmail.com">alyssajcrawford1@gmail.com</a>
                 </li>
                 <li class="noBulletLI">
-                    <i class="fi fi-sr-phone-call"></i>
+                    <div class="icon">&#xe96c;</div>
                     <a href="sms:1-480-440-1210">+1(480) 440-1210</a>
                 </li>
                 <li class="noBulletLI">
-                    <i class="fi fi-sr-cake-birthday"></i> 
+                    <div class="icon">&#xe953;</div>
                     <time datetime="2001-07-14">14 July 2001</time>
                 </li>
                 <li class="noBulletLI">
-                    <i class="fi fi-sr-home"></i> 
+                    <div class="icon">&#xe90c;</div>
                     <address>Chandler, AZ</address>
                 </li>
                 <li class="noBulletLI">
-                    <i class="fi fi-sr-marker"></i> 
+                    <div class="icon">&#xe948;</div>
                     <address>Lawrence, KS</address>
                 </li>
                 <li class="noBulletLI">
-                    <i class="fi fi-brands-github"></i>
+                    <div class="icon">&#xeab0;</div>
                     <a target="_blank" href="https://www.github.com/alyssajcrawford1/">@alyssajcrawford1</a>
                 </li>
                 <li class="noBulletLI">
-                    <i class="fi fi-brands-twitter"></i>
+                    <div class="icon">&#xea96;</div>
                     <a target="_blank" href="https://www.twitter.com/ALY55AJC/">@ALY55AJC</a>
                 </li>
                 <li class="noBulletLI">
-                    <i class="fi fi-brands-linkedin"></i>
+                    <div class="icon">&#xeac9;</div>
                     <a target="_blank" href="https://www.linkedin.com/in/alyssajcrawford/">Alyssa Crawford</a>
                 </li>
                 <li class="noBulletLI">
-                    <i class="fi fi-brands-instagram"></i>
+                    <div class="icon">&#xea92;</div>
                     <a target="_blank" href="https://www.instagram.com/alyssajcrawford/">@alyssajcrawford</a>
                 </li>
             </ul>
@@ -110,11 +109,11 @@
             <ul class="bulletUL">
                 <li class="bulletLI">Aids in teaching an online bootcamp centered on
                     data analytics and visualization using Python,
-                    <abbr title="Structured Query Language">SQL</abbr>,
+                    <abbr title="Structured Query Language/SEQUEL">SQL</abbr>,
                     Excel, Javascript, Tableau, and more.</li>
                 <li class="bulletLI">Troubleshoots student programming problems during and after hours.</li>
-                <li class="bulletLI">Engages in administrative duties such as attendance, Zoom management,
-                    and project grading.</li>
+                <li class="bulletLI">Engages in administrative duties such as attendance, 
+                    class GitLab repository maintenance, Zoom management, and project grading.</li>
             </ul>
 
             <!--
@@ -194,6 +193,7 @@
             (<em>Shopify</em>), Specialty Coffee</p>
         </div>
         </div>
+        <hr>
     </main>
 
     <footer>
@@ -214,16 +214,18 @@
     <script src="script/lightdarkmode.js"></script>
     <script>
         function getRandomHeader() {
-            var descriptions = ["a coffee lover", "an educator", "an avid learner",
+            var descriptions = ["a coffee drinker", "an educator", "an avid learner",
                                 "an info sponge", "a total geek", "a cat mom",
-                                "a desert child", "a creative", "a foodie",
+                                "a desert dweller", "a creative", "a foodie",
                                 "a gamer", "a puzzle solver", "a sudoku speedrunner",
                                 "a home chef", "a science buff", "a computer scientist",
                                 "a researcher", "a humanist", "a real person (not AI)",
                                 "a gardener", "an artist", "a tech whiz",
                                 "a lifelong learner", "a programmer", "a traveller",
                                 "a newbie", "a good friend", "a do-gooder",
-                                "a collector", "a data nerd"];
+                                "a collector", "a data nerd", "a list maker",
+                                "a robot wrangler", "a big sister", "a net head",
+                                "a remote worker", "a night owl", "a documentary fan"];
             var descriptor = descriptions[Math.floor(Math.random() * descriptions.length)];
             
             document.getElementById("randomHeader").innerHTML = descriptor;

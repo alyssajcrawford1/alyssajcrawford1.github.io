@@ -4,7 +4,9 @@
 - Contact: CSS
 - Resume: CSS alterations for readability? link color
 - Resume: social links marquee
-- Resume: bio (random?)
++ Resume: bio (random?)
+- Resume: random bio type animation
++ Resume: reduce icon font size
 + Resume: smaller background images
 - Portfolio: generally improve readability
 + Portfolio: Fix accessibility options, Javascript or CSS
