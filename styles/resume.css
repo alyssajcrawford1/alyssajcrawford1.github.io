@@ -218,6 +218,11 @@ button:hover{
         display: block;
     }
 }
+@media (min-width: 910px) {
+    #skillsBottom {
+        display: none;
+    }
+}
 
 /* Local fonts */
 @font-face {
