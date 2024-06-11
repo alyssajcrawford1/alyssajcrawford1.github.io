@@ -42,6 +42,9 @@ abbr {
 .linkBadge {
     text-decoration: none;
 }
+button {
+    text-transform: lowercase;
+}
 
 /* dark/light mode config*/
 body {

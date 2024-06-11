@@ -45,6 +45,9 @@ pre, .inlineLI, .decorative {
 .accessiblePortfolio {
     float: right;
 }
+button {
+    text-transform: lowercase;
+}
 
 /* responsive */
 @media (max-width: 750px) {
