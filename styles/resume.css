@@ -61,6 +61,7 @@ h2 {
     font-size: 9vw;
     font-weight: normal;
     display: inline;
+    color: var(--titleColor);
 }
 h3, h4 {
     margin-bottom: 4px;
@@ -118,6 +119,7 @@ button:hover{
     font-family: "terminal_grotesque", Verdana, Arial, sans-serif;
     font-size: 9vw;
     font-weight: normal;
+    color: var(--titleColor);
 }
 #randomizer {
     font-size: 3vw;
@@ -257,8 +259,9 @@ button:hover{
 
 /* Light / Dark Mode Variables */
 body {
-    --textColor: #3300ff;
-    --bgColor: #ffffff70;
+    --titleColor: #3300ff;
+    --textColor: #2400bb;
+    --bgColor: #ffffff80;
     --boxColor: #EEEDEC;
     --shadow: #50505080;
     --hover: #FF8833;
@@ -266,10 +269,12 @@ body {
     --imgOpacity: 1;
     --bgBackup: #8e996b;
     --bgImageURL: url("../images/inverness.jpg");
+    font-weight: bold;
 }
 body.darkMode {
-    --textColor: #ffee00;
-    --bgColor: #22212066;
+    --titleColor: #ffee00;
+    --textColor: #ffff33;
+    --bgColor: #222120AA;
     --boxColor: #333231;
     --shadow: #11100F80;
     --subheader: #FF8833;
@@ -277,11 +282,13 @@ body.darkMode {
     --imgOpacity: 0.8;
     --bgBackup: #403934;
     --bgImageURL: url("../images/stgiles.jpg");
+    font-weight: normal;
 }
 @media (prefers-color-scheme: dark) {
     body {
-        --textColor: #ffee00;
-        --bgColor: #22212066;
+        --titleColor: #ffee00;
+        --textColor: #ffff33;
+        --bgColor: #222120AA;
         --boxColor: #333231;
         --shadow: #11100F80;
         --subheader: #FF8833;
@@ -289,10 +296,12 @@ body.darkMode {
         --imgOpacity: 0.8;
         --bgBackup: #403934;
         --bgImageURL: url("../images/stgiles.jpg");
+        font-weight: normal;
     }
     body.lightMode {
-        --textColor: #3300ff;
-        --bgColor: #ffffff70;
+        --titleColor: #3300ff;
+        --textColor: #2800cc;
+        --bgColor: #ffffff80;
         --boxColor: #EEEDEC;
         --shadow: #50505080;
         --hover: #FF8833;
@@ -300,5 +309,6 @@ body.darkMode {
         --imgOpacity: 1;
         --bgBackup: #8e996b;
         --bgImageURL: url("../images/inverness.jpg");
+        font-weight: bold;
     }
 }
