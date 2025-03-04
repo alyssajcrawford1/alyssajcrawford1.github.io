@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Alyssa Crawford">
     <meta name="description" content="Alyssa's website. Portfolio, resume, and fun things!">
-    <meta name="keywords" content ="alyssa,crawford,portfolio,resume,alyssa crawford,alyssacrawford,alyssajcrawford,
+    <meta name="keywords" content ="alyssa,jade,crawford,portfolio,resume,alyssa crawford,alyssacrawford,alyssajcrawford,
         alyssajcrawford1,alyssa crawford website,alyssa crawford resume,alyssa crawford portfolio,
         alyssa crawford lawrence,alyssa crawford kansas,alyssa crawford arizona,alissa crawford,alissa
         alisa,allissa,allisa,alysa,allyssa,allysa,elyssa,elysa,ellyssa,ellysa,elisa,ellisa,elissa,ellissa,
@@ -47,21 +47,18 @@
             welcome to my corner of the world wide web!
         </p>
         <p>
-            i am a data professional and computer science graduate
-            with a love for learning and education! <br>
-            i'm also a big fan of video games, specialty coffee, animation, and cooking,
-            among other things.
-            i may not take myself too seriously, but i
-            am very serious about science, ethics, integrity, and kindness :]
+            i am a data professional and computer science graduate with a love for learning and education! <br>
+            i'm also a big fan of video games, animation, and culinary arts, among other things.
+            i may not take myself too seriously, but i am very serious about science, ethics, integrity, and kindness :]
         </p><br>
 
         <p>
             this website is still under construction!<br>
-            no server-side scripts (boo) since this is hosted by github pages...
-            might see about other options someday.<br>
+            <!--no server-side scripts (boo) since this is hosted by github pages...
+            might see about other options someday.<br>-->
             changes made to <abbr title="cascading style sheets">css</abbr> semi-frequently, 
             clear browser cache if you're a returning viewer and anything looks off!<br>
-            hover over badges below for animations!
+            <!--hover over badges below for animations!  THIS IS BROKEN-->
         </p>
 
 
@@ -118,7 +115,7 @@
             <li><a href="https://alyssajcrawford.gay/cookies">cookie policy</a></li>
         </ul><br>
         <small>
-            written by alyssa crawford (2024)<br>
+            written by alyssa crawford (2025)<br>
         <a href="mailto:alyssajcrawford1@gmail.com"> alyssajcrawford1@gmail.com</a>
         </small>
     </footer>
@@ -127,17 +124,19 @@
 
 
     <script>
-        function calcAge() {
-            var birthDate = new Date(2001, 7, 14);
-            var curDate = new Date();
+        // No longer using this but it was originally used to calculate my current age for my self-bio
+        // function calcAge() {
+        //    var birthDate = new Date(2001, 7, 14);
+        //    var curDate = new Date();
 
-            var timeDiff = Math.abs(curDate.getTime() - birthDate.getTime());
-            var age = Math.floor(Math.ceil(timeDiff / (1000 * 3600 * 24)) / 365);
+        //    var timeDiff = Math.abs(curDate.getTime() - birthDate.getTime());
+        //    var age = Math.floor(Math.ceil(timeDiff / (1000 * 3600 * 24)) / 365);
 
-            document.getElementById('age').innerHTML = age
-        }
-        calcAge()
+        //    document.getElementById('age').innerHTML = age
+        //}
+        //calcAge()
 
+        // Broken :(
         document.querySelectorAll('img.animated').forEach(element => {
             element.addEventListener('mouseenter', event => {
                 element.src = element.src.replace(/\.jpg$/, '.gif')
