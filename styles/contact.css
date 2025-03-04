@@ -3,6 +3,11 @@ body {
     color: var(--textColor);
 }
 
+.icon {
+    font-family: "Icons";
+    display: inline;
+}
+
 /* Local fonts */
 @font-face {
     font-family: 'Icons';
