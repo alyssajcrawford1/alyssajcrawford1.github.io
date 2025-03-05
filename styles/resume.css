@@ -13,6 +13,10 @@ body, header, nav, dd, pre, #navList, .noBulletLI, .inlineUL, .inlineIL {
 body {
     background: var(--bgBackup);
     color: var(--textColor);
+    -webkit-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 header {
     display: flex;
@@ -28,6 +32,7 @@ header {
     width: 100%;
     z-index: 2;
     padding-left: 5px;
+    font-weight: var(--bold-weight);
 }
 nav {
     display: inline-block;
@@ -55,30 +60,33 @@ h1 {
     padding: 0;
     position: absolute;
     width: 1px;
+    font-weight: 100;
 }
 h2 {
     font-family: "terminal_grotesque", Verdana, Arial, sans-serif;
     font-size: 9vw;
-    font-weight: normal;
     display: inline;
     color: var(--titleColor);
+    font-weight: normal;
 }
 h3, h4 {
     margin-bottom: 4px;
+    font-weight: var(--bold-weight);
+    color: var(--titleColor);
 }
 h4 {
     margin-top: 0px;
 }
 a {
     text-decoration: none;
-    color: var(--textColor);
+    color: var(--titleColor);
 }
 a:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
 hr {
-    border-color: var(--textColor);
+    border-color: var(--titleColor);
 }
 abbr {
     text-decoration: none;
@@ -88,14 +96,14 @@ address {
     display: inline;
 }
 button {
-    background: rgba(0,0,0,.15);
+    background: #0000001A;
     border-radius: 5px;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: none;
     padding: 5px;
     color: var(--textColor);
-    box-shadow: 0px 5px 15px var(--shadow);
+    box-shadow: 0px 5px 10px 2px var(--shadow);
 }
 button:hover{
     background: rgba(0,0,0,.2);
@@ -107,6 +115,7 @@ button:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 70px;
 }
 .navItem, .navItem a {
     display: inline-block;
@@ -127,6 +136,7 @@ button:hover{
     -webkit-transform: translateY(-1.5vw);
 	transform: translateY(-1.5vw);
     font-weight: bold;
+    color: var(--titleColor);
 }
 #flexParentResume {
     display: flex;
@@ -169,6 +179,7 @@ button:hover{
 .icon {
     font-family: "Icons";
     display: inline;
+    color: var(--titleColor);
 }
 /*blurred bg image*/
 #bgImage { 
@@ -225,7 +236,6 @@ button:hover{
         display: none;
     }
 }
-
 /* Local fonts */
 @font-face {
     font-family: 'terminal_grotesque';
@@ -240,11 +250,11 @@ button:hover{
 }
 @font-face {
     font-family: 'UncutSans';
-    src: url('fonts/UncutSans-Regular.otf') format('opentype'),
+    src: url('fonts/UncutSans-Variable.ttf') format('truetype'),
+         url('fonts/UncutSans-Regular.otf') format('opentype'),
          url('fonts/UncutSans-Regular.woff2') format('woff2'),
-         url('fonts/UncutSans-Regular.woff') format('woff'),
-         url('fonts/UncutSans-Regular.ttf') format('truetype');
-    font-weight: normal;
+         url('fonts/UncutSans-Regular.woff') format('woff');
+    font-weight: 100 1000;
     font-style: normal;
 }
 @font-face {
@@ -256,11 +266,10 @@ button:hover{
     font-weight: normal;
     font-style: normal;
 }
-
 /* Light / Dark Mode Variables */
 body {
     --titleColor: #3300ff;
-    --textColor: #2400bb;
+    --textColor: #110033;
     --bgColor: #ffffff80;
     --boxColor: #EEEDEC;
     --shadow: #50505080;
@@ -269,38 +278,41 @@ body {
     --imgOpacity: 1;
     --bgBackup: #8e996b;
     --bgImageURL: url("../images/inverness.jpg");
-    font-weight: bold;
+    font-weight: 450;
+    --bold-weight: 600;
 }
 body.darkMode {
     --titleColor: #ffee00;
-    --textColor: #ffff33;
+    --textColor: #ffffdd;
     --bgColor: #222120AA;
     --boxColor: #333231;
-    --shadow: #11100F80;
+    --shadow: #11100F90;
     --subheader: #FF8833;
     --hover: #FFCC00;
     --imgOpacity: 0.8;
     --bgBackup: #403934;
     --bgImageURL: url("../images/stgiles.jpg");
-    font-weight: normal;
+    font-weight: 100;
+    --bold-weight: 500;
 }
 @media (prefers-color-scheme: dark) {
     body {
         --titleColor: #ffee00;
-        --textColor: #ffff33;
+        --textColor: #ffffdd;
         --bgColor: #222120AA;
         --boxColor: #333231;
-        --shadow: #11100F80;
+        --shadow: #11100F90;
         --subheader: #FF8833;
         --hover: #FFCC00;
         --imgOpacity: 0.8;
         --bgBackup: #403934;
         --bgImageURL: url("../images/stgiles.jpg");
-        font-weight: normal;
+        font-weight: 100;
+        --bold-weight: 500;
     }
     body.lightMode {
         --titleColor: #3300ff;
-        --textColor: #2800cc;
+        --textColor: #110033;
         --bgColor: #ffffff80;
         --boxColor: #EEEDEC;
         --shadow: #50505080;
@@ -309,6 +321,7 @@ body.darkMode {
         --imgOpacity: 1;
         --bgBackup: #8e996b;
         --bgImageURL: url("../images/inverness.jpg");
-        font-weight: bold;
+        font-weight: 450;
+        --bold-weight: 600;
     }
 }
