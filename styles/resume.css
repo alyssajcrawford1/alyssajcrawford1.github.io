@@ -163,11 +163,11 @@ button:hover{
 }
 .bulletUL {
     padding: 0px;
-    margin-left: 20px;
+    margin: 0px 0px 20px 20px;
     list-style-type: disc;
 }
 .bulletLI, .noBulletLI {
-    padding-bottom: 10px;
+    padding: 3px 0px;
 }
 .inlineUL {
     list-style-type: none;
