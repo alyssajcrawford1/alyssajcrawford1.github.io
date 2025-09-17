@@ -270,7 +270,7 @@ button:hover{
 body {
     --titleColor: #3300ff;
     --textColor: #110033;
-    --bgColor: #ffffff80;
+    --bgColor: #ffffff90;
     --boxColor: #EEEDEC;
     --shadow: #50505080;
     --hover: #FF8833;
@@ -313,7 +313,7 @@ body.darkMode {
     body.lightMode {
         --titleColor: #3300ff;
         --textColor: #110033;
-        --bgColor: #ffffff80;
+        --bgColor: #ffffff90;
         --boxColor: #EEEDEC;
         --shadow: #50505080;
         --hover: #FF8833;
